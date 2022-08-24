@@ -237,8 +237,8 @@
                 margin-bottom: 50px;
             }
         }
-        :first-child {
-            .card {
+        &:first-child {
+            &.card {
                 .card-body {
                     .btn--holder {
                         .btn--primary {
