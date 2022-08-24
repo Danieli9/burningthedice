@@ -72,18 +72,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 			?>
 				<div class="right-nav">
 					<ul>
-						<li> 
+						
 						<?php if ( have_rows( 'right_menu', 'option' ) ) : ?>
 							<?php while ( have_rows( 'right_menu', 'option' ) ) : the_row(); ?>
 								<?php $single_link = get_sub_field( 'single_link' ); ?>
 								<?php if ( $single_link ) { ?>
-									<a href="<?php echo $single_link['url']; ?>" target="<?php echo $single_link['target']; ?>"><?php echo $single_link['title']; ?></a>
+									<li> <a href="<?php echo $single_link['url']; ?>" target="<?php echo $single_link['target']; ?>"><?php echo $single_link['title']; ?></a></li>
 								<?php } ?>
 							<?php endwhile; ?>
 						<?php else : ?>
 							<?php // no rows found ?>
 						<?php endif; ?>
-						</li>
+						
 					</ul>
 				</div>
 			</div>
