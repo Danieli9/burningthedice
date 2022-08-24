@@ -21,7 +21,6 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
       <div class="down--footer">
         <div class="down-text"> 
-          <div class="year">&copy; <?php echo date("Y"); ?></div> 
           <?php the_field( 'bottom_text_in_footer', 'option' ); ?>
           </div>
 
