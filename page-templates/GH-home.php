@@ -38,7 +38,7 @@ if ( is_front_page() ) {
           <div class="casionos--container pt-0 home-page">
             <h3><?php the_field( 'table_title_for_homepage', 'option' ); ?></h3>
             <?php if ( have_rows( 'tables', 'option' ) ) : ?>
-              <?php $count = 0; ?>
+            <?php $count = 0; ?>
             <?php while ( have_rows( 'tables', 'option' ) ) : the_row(); ?>
             <div class="card">
               <div class="row g-0">
