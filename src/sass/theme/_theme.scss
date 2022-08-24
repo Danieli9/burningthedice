@@ -87,6 +87,9 @@
             background-color: #08080D;
             justify-content: space-between;
             padding: 30px 20px;
+            @media (min-width: 992px) {
+                padding: 0px;
+            }
             .navbar-nav {
                 margin-top: 20%;
                 @media (min-width: 768px) {
@@ -96,10 +99,10 @@
                     .nav-link {
                         color: #FFF;
                         font-size: 25px;
+                        font-weight: bold;
                         @media (min-width: 768px) {
                             font-size: 16px;
                             padding: 20px;
-                            font-weight: bold;
                         }
                         &:hover,
                         &:focus {

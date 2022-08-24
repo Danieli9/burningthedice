@@ -18050,6 +18050,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   justify-content: space-between;
   padding: 30px 20px;
 }
+@media (min-width: 992px) {
+  .navbar .offcanvas .offcanvas-body {
+    padding: 0px;
+  }
+}
 .navbar .offcanvas .offcanvas-body .navbar-nav {
   margin-top: 20%;
 }
@@ -18061,12 +18066,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   color: #FFF;
   font-size: 25px;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     font-size: 16px;
     padding: 20px;
-    font-weight: bold;
   }
 }
 .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover, .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:focus {
