@@ -20,20 +20,20 @@ $container = get_theme_mod( 'understrap_container_type' );
       <?php the_field( 'middle_text_in_footer', 'option' ); ?>
       </div>
       <div class="down--footer">
-        <p class="down-text">&copy; <?php echo date("Y"); ?> <?php the_field( 'bottom_text_in_footer', 'option' ); ?></p>
+        <div class="down-text">&copy; <?php echo date("Y"); ?> <?php the_field( 'bottom_text_in_footer', 'option' ); ?></div>
 
         <div class="social">
-        <?php if ( have_rows( 'social_media', 'option' ) ) : ?>
-          <?php while ( have_rows( 'social_media', 'option' ) ) : the_row(); ?>
-            <?php $icon = get_sub_field( 'icon' ); ?>
-            <?php $link = get_sub_field( 'link' ); ?>
-            <?php if ( $link ) { ?>
-              <a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><img src="<?php echo $icon['url']; ?>" alt="<?php echo $icon['alt']; ?>" /></a>
-            <?php } ?>
-          <?php endwhile; ?>
-        <?php else : ?>
-          <?php // no rows found ?>
-        <?php endif; ?>
+          <?php if ( have_rows( 'social_media', 'option' ) ) : ?>
+            <?php while ( have_rows( 'social_media', 'option' ) ) : the_row(); ?>
+              <?php $icon = get_sub_field( 'icon' ); ?>
+              <?php $link = get_sub_field( 'link' ); ?>
+              <?php if ( $link ) { ?>
+                <a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><img src="<?php echo $icon['url']; ?>" alt="<?php echo $icon['alt']; ?>" /></a>
+              <?php } ?>
+            <?php endwhile; ?>
+          <?php else : ?>
+            <?php // no rows found ?>
+          <?php endif; ?>
         </div>
 
 
