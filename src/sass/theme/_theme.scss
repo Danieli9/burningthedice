@@ -61,7 +61,7 @@
             z-index: 10000;
         }
         img {
-            max-width: 235px;
+            max-width: 165px;
             @media (min-width: 768px) {
                 max-width: 240px;
                 // max-height: 55px;
@@ -569,6 +569,7 @@
 .video-container {
     position: relative;
     padding-bottom: 50.25%;
+    box-shadow: 10px 17px 36px -12px rgba(0,0,0,0.81);
     @media (min-width: 992px) {
         padding-bottom: 36.25%;
     }
