@@ -219,7 +219,21 @@
         }
     }
 }
-
+:first-child {
+    .gh--table {
+        .casionos--container {
+            .card {
+                .card-body {
+                    .btn--holder {
+                        .btn--primary {
+                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 .gh--table {
     background-color: #f9f9f9;
     color: #000;
@@ -568,7 +582,7 @@
 .video-container {
     position: relative;
     padding-bottom: 50.25%;
-    box-shadow: 10px 17px 36px -12px rgba(0,0,0,0.81);
+    box-shadow: 10px 17px 36px -12px rgba(8,8,13,0.81);
     @media (min-width: 992px) {
         padding-bottom: 36.25%;
     }
