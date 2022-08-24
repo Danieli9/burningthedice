@@ -18134,6 +18134,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   transform: translateY(-100%);
   transition-duration: 350ms;
   z-index: 1000;
+  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 @media (min-width: 768px) {
   .global--cta {
@@ -18152,6 +18153,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   transition-duration: 350ms;
+  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 
 .move-on .global--cta {

@@ -164,6 +164,7 @@
     transform: translateY(-100%);
     transition-duration: 350ms;
     z-index: 1000;
+    box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
     @media (min-width: 768px) {
         top: 40px;
         right: 45px;
@@ -178,6 +179,7 @@
         display: block;
         transform: translateY(-100%);
         transition-duration: 350ms;
+        box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
     }
 } 
 
