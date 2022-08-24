@@ -18132,7 +18132,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   overflow: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
-  transition-duration: 350ms;
+  transition-duration: 650ms;
   z-index: 1000;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
