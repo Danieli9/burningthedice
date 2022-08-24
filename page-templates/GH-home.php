@@ -40,7 +40,7 @@ if ( is_front_page() ) {
             <?php if ( have_rows( 'tables', 'option' ) ) : ?>
             <?php $count = 0; ?>
             <?php while ( have_rows( 'tables', 'option' ) ) : the_row(); ?>
-            <div class="card">
+            <div class="card <?php if (!$count) { ?>c-shadow<?php } ?>">
               <div class="row g-0">
                 <div class="col-lg-4">
                   <div class="single--casino">

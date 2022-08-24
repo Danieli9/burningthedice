@@ -18219,6 +18219,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border-radius: 15px;
   margin-bottom: 40px;
 }
+.gh--table .casionos--container .card.c-shadow {
+  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+}
 .gh--table .casionos--container .card .single--casino {
   display: -ms-flexbox;
   display: flex;
