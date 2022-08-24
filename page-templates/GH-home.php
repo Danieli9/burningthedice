@@ -27,8 +27,11 @@ if ( is_front_page() ) {
                 <iframe src="<?php the_field( 'youtube_url_' ); ?> " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="col-lg-5 header-text__holder order-1 order-lg-2">
-			          <h1>BEAT WAGER REQUIREMENTS<br> AND CLAIM YOUR BONUS<br></h1>
-                <a href="btn-green">GET MY STRATEGY</a>
+                <?php the_field( 'right_header_text' ); ?>
+                <?php $home_button = get_field( 'home_button' ); ?>
+                <?php if ( $home_button ) { ?>
+                  <a href="btn-green" href="<?php echo $home_button['url']; ?>" target="<?php echo $home_button['target']; ?>"><?php echo $home_button['title']; ?></a>
+                <?php } ?>
               </div>
             </div>
         </div>
