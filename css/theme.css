@@ -18214,7 +18214,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: bold;
   margin-bottom: 50px;
 }
-.gh--table .casionos--container:first-child.card .card-body .btn--holder .btn--primary {
+.gh--table .casionos--container:first-child > .card .card-body .btn--holder .btn--primary {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 .gh--table .casionos--container .card {

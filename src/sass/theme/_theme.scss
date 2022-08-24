@@ -238,7 +238,7 @@
             }
         }
         &:first-child {
-            &.card {
+            >.card {
                 .card-body {
                     .btn--holder {
                         .btn--primary {
