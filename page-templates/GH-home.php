@@ -27,7 +27,7 @@ if ( is_front_page() ) {
                 <iframe src="<?php the_field( 'youtube_url_' ); ?> " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="col-lg-5 header-text__holder order-1 order-lg-2">
-			          <h1>BEAT WAGER REQUIREMENTS<br> AND CLAIM YOUR BONUS<br> <span class="emptyClass"></span></h1>
+			          <h1>BEAT WAGER REQUIREMENTS<br> AND CLAIM YOUR BONUS<br></h1>
                 <a href="btn-green">GET MY STRATEGY</a>
               </div>
             </div>
