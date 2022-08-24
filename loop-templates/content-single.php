@@ -89,6 +89,18 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-
+<div class="global--cta">
+  <?php if ( have_rows( 'tables', 'option' ) ) : ?>
+    <?php while ( have_rows( 'tables', 'option' ) ) : the_row(); ?>
+      <?php $primary_btn = get_sub_field( 'primary_btn' ); ?>
+      <?php if ( $primary_btn ) { ?>
+        <a class="btn--global--cta" href="<?php echo $primary_btn['url']; ?>" target="<?php echo $primary_btn['target']; ?>"><?php echo $primary_btn['title']; ?></a>
+      <?php } ?>
+    <?php break;  ?>
+    <?php endwhile; ?>
+  <?php else : ?>
+    <?php // no rows found ?>
+  <?php endif; ?>	
+</div>
 </article><!-- #post-## -->
 
