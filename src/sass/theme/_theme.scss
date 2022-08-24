@@ -160,11 +160,11 @@
     position: fixed;
     top: 20px;
     right: 25px;
-    overflow: hidden;
+    // overflow: hidden;
     transform: translateY(-100%);
     transition-duration: 650ms;
     z-index: 1000;
-    box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+    // box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
     @media (min-width: 768px) {
         top: 40px;
         right: 45px;
