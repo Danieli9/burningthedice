@@ -18023,8 +18023,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 768px) {
   .navbar .navbar-brand img {
-    max-width: 270px;
-    max-height: 55px;
+    max-width: 240px;
   }
 }
 .navbar .offcanvas {
