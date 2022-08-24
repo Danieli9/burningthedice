@@ -455,14 +455,17 @@
         }
     }
 }
-.gh--table:first-child {
-    .gh--table {
-        .casionos--container {
-            .card {
-                .card-body {
-                    .btn--holder {
-                        .btn--primary {
-                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+
+.wrapper {
+    &:first-child {
+        .gh--table {
+            .casionos--container {
+                .card {
+                    .card-body {
+                        .btn--holder {
+                            .btn--primary {
+                                box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                            }
                         }
                     }
                 }
@@ -470,6 +473,7 @@
         }
     }
 }
+
 
 .gh--content {
     background-color: #f9f9f9;
