@@ -23,7 +23,6 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="down-text"> 
           <?php the_field( 'bottom_text_in_footer', 'option' ); ?>
           </div>
-
         <div class="social">
           <?php if ( have_rows( 'social_media', 'option' ) ) : ?>
             <?php while ( have_rows( 'social_media', 'option' ) ) : the_row(); ?>
@@ -37,11 +36,6 @@ $container = get_theme_mod( 'understrap_container_type' );
             <?php // no rows found ?>
           <?php endif; ?>
         </div>
-
-
-
-
-
       </div>
     </footer>
 </div><!-- #page we need this extra closing tag here -->
