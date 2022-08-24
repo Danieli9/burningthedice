@@ -468,6 +468,8 @@
 .gh--content {
     background-color: #f9f9f9;
     color: #000;
+    max-width: 800px;
+    margin: auto;
     h3 {
         font-size: 30px;
         font-weight: bold;
@@ -640,9 +642,15 @@
         }
     }
 }
+#single-wrapper {
+    padding: 0px;
+    article {
+        background-color: #f9f9f9;
+    }
+}
 
 #archive-wrapper {
-    background-color: #FFF;
+    background-color: #f9f9f9;
     color: #000;
     padding: 50px 0px;
     article {
