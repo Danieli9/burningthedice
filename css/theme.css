@@ -18065,6 +18065,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
     font-size: 16px;
+    padding: 20px;
+    font-weight: bold;
   }
 }
 .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover, .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:focus {
@@ -18107,12 +18109,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .navbar .offcanvas .offcanvas-body .right-nav ul li a {
   color: #FFF;
   text-decoration: none;
-  padding: 5px;
   font-size: 20px;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li a {
     font-size: 16px;
+    padding: 20px;
   }
 }
 .navbar .offcanvas .offcanvas-body .right-nav ul li a:hover {

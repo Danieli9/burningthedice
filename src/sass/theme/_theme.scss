@@ -98,6 +98,8 @@
                         font-size: 25px;
                         @media (min-width: 768px) {
                             font-size: 16px;
+                            padding: 20px;
+                            font-weight: bold;
                         }
                         &:hover,
                         &:focus {
@@ -118,6 +120,7 @@
                     margin-bottom: 0px;
                     padding-left: 0px;
                     flex-direction: column;
+                    
                     @media (min-width: 768px) {
                         flex-direction: row;
                     }
@@ -130,10 +133,11 @@
                         a {
                             color: #FFF;
                             text-decoration: none;
-                            padding: 5px;
                             font-size: 20px;
+                            font-weight: bold;
                             @media (min-width: 768px) {
                                 font-size: 16px;
+                                padding: 20px;
                             }
                             &:hover {
                                 color: #FFF;
