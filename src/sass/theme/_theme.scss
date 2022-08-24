@@ -240,7 +240,7 @@
         .card {
             border: none;
             border-radius: 15px;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             .single--casino {
                 display: flex;
                 align-items: center;
@@ -268,11 +268,9 @@
                     }
                 }
                 .card-img {
-                    max-width: 150px;
+                    max-width: 120px;
                     border: 1px solid rgba(#000, 0.1);
                     margin-bottom: 20px;
-                    width: 150px;
-                    height: 150px;
                     object-fit: cover;
                     @media (min-width: 768px) {
                         margin-bottom: 0px;
