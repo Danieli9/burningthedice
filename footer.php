@@ -20,7 +20,10 @@ $container = get_theme_mod( 'understrap_container_type' );
       <?php the_field( 'middle_text_in_footer', 'option' ); ?>
       </div>
       <div class="down--footer">
-        <div class="down-text"><?php the_field( 'bottom_text_in_footer', 'option' ); ?></div>
+        <div class="down-text"> 
+          <div class="year">&copy; <?php echo date("Y"); ?></div> 
+          <?php the_field( 'bottom_text_in_footer', 'option' ); ?>
+          </div>
 
         <div class="social">
           <?php if ( have_rows( 'social_media', 'option' ) ) : ?>
