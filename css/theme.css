@@ -18656,31 +18656,32 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh-header__home .container-header__home .header-text__holder {
   -ms-flex-item-align: center;
   align-self: center;
+  margin-bottom: 100px;
 }
 .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 0;
   color: #FFF;
   margin-bottom: 50px;
 }
 @media (min-width: 992px) {
   .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
-    font-size: 45px;
+    font-size: 30px;
     color: #FFF;
     margin-top: 0px;
   }
 }
 @media (min-width: 1200px) {
   .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 .gh-header__home .container-header__home .header-text__holder a {
   background-color: #009345;
   color: #FFF;
-  font-size: 35px;
+  font-size: 28px;
   text-decoration: none;
   text-align: center;
   margin: auto;
@@ -18695,12 +18696,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 992px) {
   .gh-header__home .container-header__home .header-text__holder a {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 @media (min-width: 1200px) {
   .gh-header__home .container-header__home .header-text__holder a {
-    font-size: 49px;
+    font-size: 40px;
   }
 }
 
