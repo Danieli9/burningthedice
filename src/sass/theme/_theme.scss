@@ -237,11 +237,8 @@
                 margin-bottom: 50px;
             }
         }
-        .card {
-            border: none;
-            border-radius: 15px;
-            margin-bottom: 40px;
-            :first-child {
+        &:first-child {
+            .card {
                 .card-body {
                     .btn--holder {
                         .btn--primary {
@@ -250,6 +247,11 @@
                     }
                 }
             }
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            margin-bottom: 40px;
             .single--casino {
                 display: flex;
                 align-items: center;
