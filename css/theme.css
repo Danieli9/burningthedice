@@ -18577,6 +18577,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   -ms-flex-order: 1;
   order: 1;
 }
+.gh--footer .down--footer .down-text a {
+  color: #7fc467;
+  text-decoration: none;
+}
+.gh--footer .down--footer .down-text a:hover {
+  color: #7fc467;
+}
 @media (min-width: 992px) {
   .gh--footer .down--footer .down-text {
     margin-bottom: 0;
