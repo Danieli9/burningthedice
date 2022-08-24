@@ -219,21 +219,7 @@
         }
     }
 }
-:first-child {
-    .gh--table {
-        .casionos--container {
-            .card {
-                .card-body {
-                    .btn--holder {
-                        .btn--primary {
-                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+
 .gh--table {
     background-color: #f9f9f9;
     color: #000;
@@ -463,6 +449,21 @@
                         color: #7fc467;
                         text-decoration: none;
                         font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+.gh--table:first-child {
+    .gh--table {
+        .casionos--container {
+            .card {
+                .card-body {
+                    .btn--holder {
+                        .btn--primary {
+                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                        }
                     }
                 }
             }
