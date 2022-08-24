@@ -237,11 +237,7 @@
                 margin-bottom: 50px;
             }
         }
-        &:first-child {
-            .btn--primary {
-                box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
-            }
-        }
+
         .card {
             border: none;
             border-radius: 15px;
@@ -441,13 +437,16 @@
                        text-decoration: none;
                        font-weight: bold;
                        display: block;
-                       svg {
+                       &.btn--shadow {
+                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                        }
+                        svg {
                         width: 20px;
                         height: 20px;
-                        path {
-                            fill: #FFF;
+                            path {
+                                fill: #FFF;
+                            }
                         }
-                       }
                     }
                     .btn--secondary {
                         color: #7fc467;
