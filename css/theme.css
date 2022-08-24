@@ -18677,19 +18677,30 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     font-size: 50px;
   }
 }
-.gh-header__home .container-header__home .header-text__holder h1 span, .gh-header__home .container-header__home .header-text__holder .h1 span {
+.gh-header__home .container-header__home .header-text__holder a {
   background-color: #009345;
   color: #FFF;
   font-size: 35px;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 @media (min-width: 992px) {
-  .gh-header__home .container-header__home .header-text__holder h1 span, .gh-header__home .container-header__home .header-text__holder .h1 span {
+  .gh-header__home .container-header__home .header-text__holder a {
     font-size: 50px;
   }
 }
 @media (min-width: 1200px) {
-  .gh-header__home .container-header__home .header-text__holder h1 span, .gh-header__home .container-header__home .header-text__holder .h1 span {
-    font-size: 60px;
+  .gh-header__home .container-header__home .header-text__holder a {
+    font-size: 49px;
   }
 }
 
