@@ -241,7 +241,7 @@
             border: none;
             border-radius: 15px;
             margin-bottom: 40px;
-            &:first-child {
+            :first-child {
                 .card-body {
                     .btn--holder {
                         .btn--primary {
