@@ -18442,10 +18442,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .gh--content {
+  position: relative;
   background-color: #f9f9f9;
   color: #000;
   max-width: 800px;
   margin: auto;
+  top: -50px;
 }
 .gh--content h3, .gh--content .h3 {
   font-size: 30px;

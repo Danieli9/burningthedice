@@ -467,10 +467,12 @@
 }
 
 .gh--content {
+    position: relative;
     background-color: #f9f9f9;
     color: #000;
     max-width: 800px;
     margin: auto;
+    top: -50px;
     h3 {
         font-size: 30px;
         font-weight: bold;
