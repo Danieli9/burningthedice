@@ -18033,6 +18033,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .navbar .offcanvas .offcanvas-header {
   background-color: #08080D;
+  padding: 20px;
 }
 .navbar .offcanvas .offcanvas-header .btn-close-gh {
   opacity: 1;
