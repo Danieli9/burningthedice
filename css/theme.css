@@ -18219,6 +18219,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border-radius: 15px;
   margin-bottom: 40px;
 }
+.gh--table .casionos--container .card:first-child .card-body .btn--holder .btn--primary {
+  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+}
 .gh--table .casionos--container .card .single--casino {
   display: -ms-flexbox;
   display: flex;
@@ -18432,9 +18435,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #7fc467;
   text-decoration: none;
   font-size: 14px;
-}
-.gh--table .casionos--container:first-child .card .card-body .btn--holder .btn--primary {
-  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 
 .gh--content {

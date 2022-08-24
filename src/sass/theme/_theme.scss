@@ -241,6 +241,15 @@
             border: none;
             border-radius: 15px;
             margin-bottom: 40px;
+            &:first-child {
+                .card-body {
+                    .btn--holder {
+                        .btn--primary {
+                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                        }
+                    }
+                }
+            }
             .single--casino {
                 display: flex;
                 align-items: center;
@@ -388,7 +397,6 @@
                     }
                 }
             }
-
             .card-body {
                 display: flex;
                 height: 100%;
@@ -453,17 +461,7 @@
                 }
             }
         }
-        &:first-child {
-            .card {
-                .card-body {
-                    .btn--holder {
-                        .btn--primary {
-                            box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
-                        }
-                    }
-                }
-            }
-        }
+
     }
 }
 
