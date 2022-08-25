@@ -725,6 +725,10 @@
     .entry-title {
         text-align: center;
         padding-bottom: 70px;
+        h1 {
+            font-weight: bold;
+            font-size: 50px;
+        }
     }
     .entry-content {
         background-color: #f9f9f9;
@@ -733,6 +737,10 @@
         .gh--page-content {
             max-width: 800px;
             margin: auto;
+            p {
+                font-size: 20px;
+                color: #666;
+            }
         }
     }
 }

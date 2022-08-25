@@ -18772,6 +18772,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   text-align: center;
   padding-bottom: 70px;
 }
+#page-wrapper .entry-title h1, #page-wrapper .entry-title .h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
 #page-wrapper .entry-content {
   background-color: #f9f9f9;
   color: #000;
@@ -18780,6 +18784,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #page-wrapper .entry-content .gh--page-content {
   max-width: 800px;
   margin: auto;
+}
+#page-wrapper .entry-content .gh--page-content p {
+  font-size: 20px;
+  color: #666;
 }
 
 /*# sourceMappingURL=theme.css.map */
