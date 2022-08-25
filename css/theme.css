@@ -18768,7 +18768,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #FFF;
 }
 
-#page-wrapper .gh--page-content {
+#page-wrapper .entry-content {
+  background-color: #f9f9f9;
+  color: #000;
+}
+#page-wrapper .entry-content .gh--page-content {
   max-width: 800px;
   margin: auto;
 }
