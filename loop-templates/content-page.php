@@ -20,18 +20,13 @@ defined( 'ABSPATH' ) || exit;
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
 	<div class="entry-content">
+		<div class="gh--page-content">
+			<?php
+				the_content();
+			?>
+		</div>
 
-		<?php
-		the_content();
-		understrap_link_pages();
-		?>
 
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-
-		<?php understrap_edit_post_link(); ?>
-
-	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
