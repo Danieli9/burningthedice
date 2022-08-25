@@ -16,11 +16,13 @@ defined( 'ABSPATH' ) || exit;
 	</header><!-- .entry-header -->
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-	<div class="container entry-content">
-		<div class="gh--page-content">
-			<?php
-				the_content();
-			?>
+	<div class="entry-content">
+		<div class="container">
+			<div class="gh--page-content">
+				<?php
+					the_content();
+				?>
+			</div>
 		</div>
 	</div>
 
