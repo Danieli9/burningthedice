@@ -18771,8 +18771,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #page-wrapper .entry-title {
   text-align: center;
   padding-bottom: 70px;
-}
-#page-wrapper .entry-title h1, #page-wrapper .entry-title .h1 {
   font-weight: bold;
   font-size: 50px;
 }
@@ -18784,10 +18782,18 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #page-wrapper .entry-content .gh--page-content {
   max-width: 800px;
   margin: auto;
+  color: #666;
+}
+#page-wrapper .entry-content .gh--page-content h1, #page-wrapper .entry-content .gh--page-content .h1 {
+  margin-bottom: 50px;
+  color: #2b2b2b;
 }
 #page-wrapper .entry-content .gh--page-content p {
   font-size: 20px;
-  color: #666;
+}
+#page-wrapper .entry-content .gh--page-content h5, #page-wrapper .entry-content .gh--page-content .h5 {
+  margin: 30px 0;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=theme.css.map */
