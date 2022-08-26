@@ -9298,7 +9298,7 @@
 
 	jQuery(document).ready(function ($) {
 	  $(window).scroll(function () {
-	    if ($(this).scrollTop() > 250) {
+	    if ($(this).scrollTop() > 700) {
 	      $('body').addClass('move-on');
 	    } else {
 	      $('body').removeClass('move-on');
