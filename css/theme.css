@@ -18751,10 +18751,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #2b2b2b;
   font-weight: bold;
 }
-#single-wrapper article .entry-content .gh--content p {
+#single-wrapper article .entry-content .gh--content p, #single-wrapper article .entry-content .gh--content span {
   font-size: 20px;
 }
-#single-wrapper article .entry-content .gh--content h5, #single-wrapper article .entry-content .gh--content .h5 {
+#single-wrapper article .entry-content .gh--content h2, #single-wrapper article .entry-content .gh--content .h2, #single-wrapper article .entry-content .gh--content h3, #single-wrapper article .entry-content .gh--content .h3, #single-wrapper article .entry-content .gh--content h4, #single-wrapper article .entry-content .gh--content .h4, #single-wrapper article .entry-content .gh--content h5, #single-wrapper article .entry-content .gh--content .h5 {
   margin: 30px 0;
   font-weight: bold;
 }
