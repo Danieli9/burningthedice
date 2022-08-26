@@ -27,7 +27,7 @@ defined( 'ABSPATH' ) || exit;
 			<?php while ( have_rows( 'tables', 'option' ) ) : the_row(); ?>
             <div class="card">
               <div class="row g-0">
-                <div class="col-lg-4">
+                <div class="col-lg-4 align-self-center">
                   <div class="single--casino">
                     <span><?php the_sub_field( 'no' ); ?></span>
                     <?php $image = get_sub_field( 'image' ); ?>

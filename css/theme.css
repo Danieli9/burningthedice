@@ -18229,7 +18229,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh--table .casionos--container .card {
   border: none;
   border-radius: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .gh--table .casionos--container .card.c-shadow {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
@@ -18278,7 +18278,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .gh--table .casionos--container .card .single--casino .card-img {
-  max-width: 120px;
+  max-width: 85px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   -o-object-fit: cover;
