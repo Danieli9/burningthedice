@@ -30,7 +30,7 @@ if ( is_front_page() ) {
                 <?php the_field( 'right_header_text' ); ?>
                 <?php $home_button = get_field( 'home_button' ); ?>
                 <?php if ( $home_button ) { ?>
-                  <a href="btn-green" href="<?php echo $home_button['url']; ?>" target="<?php echo $home_button['target']; ?>"><?php echo $home_button['title']; ?></a>
+                  <a href="<?php echo $home_button['url']; ?>" target="<?php echo $home_button['target']; ?>"><?php echo $home_button['title']; ?></a>
                 <?php } ?>
               </div>
             </div>
