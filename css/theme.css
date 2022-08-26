@@ -18737,11 +18737,26 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #single-wrapper article {
   background-color: #f9f9f9;
 }
+#single-wrapper article .entry-content .gh--content {
+  color: #666;
+}
 #single-wrapper article .entry-content .gh--content .feature-image {
   margin-bottom: 50px;
 }
 #single-wrapper article .entry-content .gh--content .feature-image img {
   width: 100%;
+}
+#single-wrapper article .entry-content .gh--content h1, #single-wrapper article .entry-content .gh--content .h1 {
+  margin-bottom: 50px;
+  color: #2b2b2b;
+  font-weight: bold;
+}
+#single-wrapper article .entry-content .gh--content p {
+  font-size: 20px;
+}
+#single-wrapper article .entry-content .gh--content h5, #single-wrapper article .entry-content .gh--content .h5 {
+  margin: 30px 0;
+  font-weight: bold;
 }
 
 #archive-wrapper {
