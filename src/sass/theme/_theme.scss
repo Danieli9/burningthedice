@@ -685,6 +685,11 @@
                 margin-bottom: 60px;
                 transition: all 350ms;
                 box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                &:hover {
+                    @media (min-width: 768px) {
+                        background-color: #CC0007;
+                    }
+                }
                 @media (min-width: 992px) {
                     font-size: 30px;
                     margin-bottom: 0px;
@@ -692,11 +697,7 @@
                 @media (min-width: 1200px) {
                     font-size: 40px;
                 }
-                &:hover {
-                    @media (min-width: 768px) {
-                        background-color: #CC0007;
-                    }
-                }
+
             }
         }
     }
