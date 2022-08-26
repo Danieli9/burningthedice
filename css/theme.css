@@ -18448,8 +18448,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
   transition: all 350ms;
 }
-.gh--table .casionos--container .card .card-body .btn--holder .btn--primary:hover {
-  background-color: #80c768;
+@media (min-width: 768px) {
+  .gh--table .casionos--container .card .card-body .btn--holder .btn--primary:hover {
+    background-color: #80c768;
+  }
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary.btn--shadow {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
@@ -18749,7 +18751,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 768px) {
   .gh-header__home .container-header__home .header-text__holder a:hover {
-    color: #CC0007;
+    background-color: #CC0007;
   }
 }
 

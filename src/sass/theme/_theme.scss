@@ -465,7 +465,9 @@
                        box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                        transition: all 350ms;
                        &:hover {
-                        background-color: #80c768;
+                        @media (min-width: 768px) {
+                            background-color: #80c768;
+                        }
                        }
                        &.btn--shadow {
                             box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
@@ -692,7 +694,7 @@
                 }
                 &:hover {
                     @media (min-width: 768px) {
-                        color: #CC0007;
+                        background-color: #CC0007;
                     }
                 }
             }
