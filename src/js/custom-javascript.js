@@ -12,9 +12,14 @@ jQuery(document).ready(function($) {
     //        $('body').removeClass('move-on');
     //     }
     // });
-    $('.entry-content').waypoint({
-        handler: function(direction) {
-            console.log('hit');
-        },
-    offset: '100%'});
+    // $('.entry-content').waypoint({
+    // console.log('hit'),
+    // offset: '100%'});
+})
+
+var waypoint = new Waypoint({
+    element: document.getElementById('entry-content'),
+    handler: function(direction) {
+        console.log('hit')
+    }
 })
