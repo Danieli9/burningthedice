@@ -18489,14 +18489,19 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     flex-direction: row;
   }
 }
-.gh--singup .bg-gh img {
+.gh--singup .bg-gh .holder--img {
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+.gh--singup .bg-gh .holder--img img {
   max-height: 450px;
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
 }
 @media (min-width: 992px) {
-  .gh--singup .bg-gh img {
+  .gh--singup .bg-gh .holder--img img {
     max-width: 600px;
     max-height: 600px;
     aspect-ratio: 1/1;

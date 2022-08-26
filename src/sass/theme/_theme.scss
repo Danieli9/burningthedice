@@ -508,14 +508,18 @@
         @media (min-width: 992px) {
             flex-direction: row;
         }
-        img {
-            max-height: 450px;
-            object-fit: cover;
-            width: 100%;
-            @media (min-width: 992px) {
-                max-width: 600px;
-                max-height: 600px;
-                aspect-ratio: 1/1;
+        .holder--img {
+            display: flex;
+            height: auto;
+            img {
+                max-height: 450px;
+                object-fit: cover;
+                width: 100%;
+                @media (min-width: 992px) {
+                    max-width: 600px;
+                    max-height: 600px;
+                    aspect-ratio: 1/1;
+                }
             }
         }
         .singup--holder {
