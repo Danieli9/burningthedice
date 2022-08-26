@@ -75,7 +75,7 @@ defined( 'ABSPATH' ) || exit;
 
 	
 
-	<div class="entry-content">
+	<div class="entry-content" id="entry-content">
 
 	  <div class="gh--content">
       <div class="container px-20 px-lg-0">
