@@ -21,6 +21,6 @@ jQuery(document).ready(function($) {
 
 if ( $( "#entry-content" ).length ) {
     $(".entry-content").waypoint(function(){
-        $('body').addClass("move-on");
+        $('body').addClass("move-onn");
      });
 }

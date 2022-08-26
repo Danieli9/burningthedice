@@ -9314,7 +9314,7 @@
 
 	if ($__default["default"]("#entry-content").length) {
 	  $__default["default"](".entry-content").waypoint(function () {
-	    $__default["default"](this[('element')]).addClass("viewed");
+	    $__default["default"]('body').addClass("move-onn");
 	  });
 	}
 
