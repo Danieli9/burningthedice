@@ -18735,13 +18735,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border-radius: 10px;
   font-weight: bold;
   margin-bottom: 60px;
-  transition: all 350ms;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
-@media (min-width: 768px) {
-  .gh-header__home .container-header__home .header-text__holder a:hover {
-    background-color: #CC0007;
-  }
+.gh-header__home .container-header__home .header-text__holder a:hover {
+  background-color: #CC0007;
 }
 @media (min-width: 992px) {
   .gh-header__home .container-header__home .header-text__holder a {
