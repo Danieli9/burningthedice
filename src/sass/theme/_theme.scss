@@ -251,6 +251,8 @@
     .casionos--container {
         position: relative;
         padding: 30px 0;
+        max-width: 1150px;
+        margin: auto;
         &.post-template {
             top: -95px;
         }
@@ -429,7 +431,7 @@
                 .card-title {
                     font-weight: bold;
                     font-size: 16px;
-                    flex: 2;
+                    flex: 3;
                     text-align: center;
                     margin-bottom: 20px;
                     @media (min-width: 992px) {
@@ -454,7 +456,7 @@
                     flex: 3;
                     text-align: center;
                     @media (min-width: 1200px) {
-                        flex: 2;
+                        flex: 3;
                     }
                     .btn--primary {
                        background-color: #6fb857;
