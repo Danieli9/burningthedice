@@ -25,6 +25,6 @@ if ( $( "#entry-content" ).length ) {
         handler: function(direction) {
             console.log('hit')
         },
-        offset: '100%'
+        // offset: '100%'
     })
 }

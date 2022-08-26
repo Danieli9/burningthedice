@@ -9317,8 +9317,8 @@
 	    element: document.getElementById('entry-content'),
 	    handler: function (direction) {
 	      console.log('hit');
-	    },
-	    offset: '100%'
+	    } // offset: '100%'
+
 	  });
 	}
 
