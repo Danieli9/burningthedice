@@ -9313,8 +9313,12 @@
 	});
 
 	if ($__default["default"]("#entry-content").length) {
-	  $__default["default"](".entry-content").waypoint(function () {
-	    $__default["default"]('body').addClass("move-onn");
+	  $__default["default"]('#entry-content').waypoint(function (direction) {
+	    if (direction === "down") {
+	      $__default["default"]('body').addClass("move-on");
+	    } else {
+	      $__default["default"]('body').removeClass('move-on');
+	    }
 	  });
 	}
 

@@ -20,7 +20,14 @@ jQuery(document).ready(function($) {
 
 
 if ( $( "#entry-content" ).length ) {
-    $(".entry-content").waypoint(function(){
-        $('body').addClass("move-onn");
-     });
+
+    $('#entry-content').waypoint(function(direction) {
+        if(direction==="down") {
+            $('body').addClass("move-on");
+        } else {
+            $('body').removeClass('move-on');
+        }
+    });
+
 }
+
