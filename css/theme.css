@@ -18242,7 +18242,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   box-shadow: 0 2px 0 0 #f2f0f0;
 }
 .gh--table .casionos--container .card.c-shadow {
-  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+  box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75) !important;
 }
 .gh--table .casionos--container .card .single--casino {
   display: -ms-flexbox;
