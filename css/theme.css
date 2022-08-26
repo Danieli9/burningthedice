@@ -18067,6 +18067,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #FFF;
   font-size: 25px;
   font-weight: bold;
+  transition: all 350ms;
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
@@ -18075,8 +18076,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover, .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:focus {
-  color: #FFF;
   text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover:hover, .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:focus:hover {
+    color: #80c768;
+  }
 }
 .navbar .offcanvas .offcanvas-body .right-nav {
   -ms-flex-item-align: center;
@@ -18116,6 +18121,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  transition: all 350ms;
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li a {

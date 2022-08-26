@@ -100,13 +100,18 @@
                         color: #FFF;
                         font-size: 25px;
                         font-weight: bold;
+                        transition: all 350ms;
                         @media (min-width: 768px) {
                             font-size: 16px;
                             padding: 20px;
                         }
                         &:hover,
                         &:focus {
-                            color: #FFF;
+                            &:hover {
+                                @media (min-width: 768px) {
+                                    color: #80c768;
+                                }
+                            }
                             text-decoration: none
                         }
                     }
@@ -138,6 +143,7 @@
                             text-decoration: none;
                             font-size: 20px;
                             font-weight: bold;
+                            transition: all 350ms;
                             @media (min-width: 768px) {
                                 font-size: 16px;
                                 padding: 20px;
