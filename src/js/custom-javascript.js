@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Waypoints from 'waypoints';
 
 // Add your JS customizations here
 

@@ -4,8 +4,8 @@
   * Licensed under GPL (http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
   */
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
-	typeof define === 'function' && define.amd ? define(['exports', 'jquery'], factory) :
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('waypoints')) :
+	typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'waypoints'], factory) :
 	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.understrap = {}));
 })(this, (function (exports) { 'use strict';
 
