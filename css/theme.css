@@ -18228,8 +18228,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh--table .casionos--container .card {
   border: none;
-  border-radius: 15px;
+  border-radius: 12px;
   margin-bottom: 20px;
+  box-shadow: 0 2px 0 0 #f2f0f0;
 }
 .gh--table .casionos--container .card.c-shadow {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
@@ -18715,7 +18716,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 12px;
   font-weight: bold;
   margin-bottom: 60px;
 }
