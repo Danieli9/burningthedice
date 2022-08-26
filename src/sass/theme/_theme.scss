@@ -172,6 +172,7 @@
     background-color: #f2ce53;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
 }
 
 .global--cta {
@@ -263,7 +264,7 @@
             border: none;
             border-radius: 10px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 0 0 #f2f0f0;
+            box-shadow: 0 2px 0 0 #f2f0f0 !important;
             &.c-shadow {
                 box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
             }
@@ -462,6 +463,7 @@
                        text-decoration: none;
                        font-weight: bold;
                        display: block;
+                       box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                        &.btn--shadow {
                             box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                         }
@@ -664,7 +666,7 @@
 
             }
             a {
-                background-color: #009345;
+                background-color: #C91E0B;
                 color: #FFF;
                 font-size: 28px;
                 text-decoration: none;
@@ -676,12 +678,19 @@
                 border-radius: 10px;
                 font-weight: bold;
                 margin-bottom: 60px;
+                transition: all 350ms;
+                box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                 @media (min-width: 992px) {
                     font-size: 30px;
                     margin-bottom: 0px;
                 }
                 @media (min-width: 1200px) {
                     font-size: 40px;
+                }
+                &:hover {
+                    @media (min-width: 768px) {
+                        color: #CC0007;
+                    }
                 }
             }
         }
