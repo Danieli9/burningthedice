@@ -17,10 +17,14 @@ jQuery(document).ready(function($) {
     // offset: '100%'});
 })
 
-var waypoint = new Waypoint({
-    element: document.getElementById('entry-content'),
-    handler: function(direction) {
-        console.log('hit')
-    },
-    offset: '100%'
-})
+
+
+if ( $( "#entry-content" ).length ) {
+    var waypoint = new Waypoint({
+        element: document.getElementById('entry-content'),
+        handler: function(direction) {
+            console.log('hit')
+        },
+        offset: '100%'
+    })
+}

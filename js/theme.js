@@ -6,8 +6,12 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('waypoints')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'waypoints'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.understrap = {}));
-})(this, (function (exports) { 'use strict';
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.understrap = {}, global.jQuery));
+})(this, (function (exports, $) { 'use strict';
+
+	function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+	var $__default = /*#__PURE__*/_interopDefaultLegacy($);
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -9307,13 +9311,16 @@
 	  // console.log('hit'),
 	  // offset: '100%'});
 	});
-	new Waypoint({
-	  element: document.getElementById('entry-content'),
-	  handler: function (direction) {
-	    console.log('hit');
-	  },
-	  offset: '100%'
-	});
+
+	if ($__default["default"]("#entry-content").length) {
+	  new Waypoint({
+	    element: document.getElementById('entry-content'),
+	    handler: function (direction) {
+	      console.log('hit');
+	    },
+	    offset: '100%'
+	  });
+	}
 
 	exports.Alert = alert;
 	exports.Button = button;
