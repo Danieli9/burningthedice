@@ -77,14 +77,14 @@ defined( 'ABSPATH' ) || exit;
 
 	<div class="entry-content">
 
-	<div class="gh--content">
+	  <div class="gh--content">
       <div class="container px-20 px-lg-0">
         <div class="feature-image">
           <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
         </div>
-	  <?php
-		the_content();
-		?>
+        <?php
+        the_content();
+        ?>
       </div>
     </div>
 
