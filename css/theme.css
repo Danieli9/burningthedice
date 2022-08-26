@@ -18437,7 +18437,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary {
-  background-color: #7fc467;
+  background-color: #6fb857;
   padding: 20px 20px;
   margin-bottom: 15px;
   color: #FFF;
@@ -18446,6 +18446,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: bold;
   display: block;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+  transition: all 350ms;
+}
+.gh--table .casionos--container .card .card-body .btn--holder .btn--primary:hover {
+  background-color: #80c768;
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary.btn--shadow {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);

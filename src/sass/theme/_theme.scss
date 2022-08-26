@@ -259,7 +259,6 @@
                 margin-bottom: 50px;
             }
         }
-
         .card {
             border: none;
             border-radius: 10px;
@@ -455,7 +454,7 @@
                         flex: 2;
                     }
                     .btn--primary {
-                       background-color: #7fc467;
+                       background-color: #6fb857;
                        padding: 20px 20px;
                        margin-bottom: 15px;
                        color: #FFF; 
@@ -464,6 +463,10 @@
                        font-weight: bold;
                        display: block;
                        box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+                       transition: all 350ms;
+                       &:hover {
+                        background-color: #80c768;
+                       }
                        &.btn--shadow {
                             box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                         }
