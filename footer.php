@@ -39,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
     </footer>
 </div><!-- #page we need this extra closing tag here -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <?php wp_footer(); ?>
 
 </body>
