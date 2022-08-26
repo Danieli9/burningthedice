@@ -73,12 +73,13 @@ defined( 'ABSPATH' ) || exit;
     </div>
 
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	
 
 	<div class="entry-content">
 
 	<div class="gh--content">
       <div class="container px-20 px-lg-0">
+      <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 	  <?php
 		the_content();
 		?>

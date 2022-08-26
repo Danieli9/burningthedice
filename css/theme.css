@@ -18480,8 +18480,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   flex-direction: column;
   margin: auto;
   max-width: 1150px;
-  background-color: #f9f9f9;
+  background-color: #FFF;
   color: #000;
+  border: 1px dashed #6fb857;
 }
 @media (min-width: 992px) {
   .gh--singup .bg-gh {
@@ -18507,7 +18508,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     aspect-ratio: 1/1;
   }
 }
-.gh--singup .bg-gh .holder--text .singup--holder {
+.gh--singup .bg-gh .holder--text {
   background-color: #FFF;
 }
 .gh--singup .bg-gh .holder--text .singup--holder h4, .gh--singup .bg-gh .holder--text .singup--holder .h4 {

@@ -503,8 +503,9 @@
         flex-direction: column;
         margin: auto;
         max-width: 1150px;
-        background-color: #f9f9f9;
+        background-color: #FFF;
         color: #000;
+        border: 1px dashed #6fb857;
         @media (min-width: 992px) {
             flex-direction: row;
         }
@@ -523,8 +524,8 @@
             }
         }
         .holder--text {
+            background-color: #FFF;
             .singup--holder {
-                background-color: #FFF;
                 h4 {
                     text-align: center;
                     margin-bottom: 20px;

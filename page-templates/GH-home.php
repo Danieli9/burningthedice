@@ -95,10 +95,10 @@ if ( is_front_page() ) {
       <div class="container px-20 px-lg-0">
         <div class="bg-gh">
           <div class="holder--img">
-			<?php $image = get_field( 'image', 'option' ); ?>
-			<?php if ( $image ) { ?>
-				<img class="img-fluid" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-			<?php } ?>
+            <?php $image = get_field( 'image', 'option' ); ?>
+            <?php if ( $image ) { ?>
+              <img class="img-fluid" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+            <?php } ?>
           </div>
           <div class="holder--text d-flex align-self-center p-40">
             <div class="singup--holder">
