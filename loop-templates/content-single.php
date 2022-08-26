@@ -79,7 +79,9 @@ defined( 'ABSPATH' ) || exit;
 
 	<div class="gh--content">
       <div class="container px-20 px-lg-0">
-      <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+        <div class="feature-image">
+          <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+        </div>
 	  <?php
 		the_content();
 		?>
