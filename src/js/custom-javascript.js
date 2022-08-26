@@ -20,11 +20,7 @@ jQuery(document).ready(function($) {
 
 
 if ( $( "#entry-content" ).length ) {
-    var waypoint = new Waypoint({
-        element: document.getElementById('entry-content'),
-        handler: function(direction) {
-            console.log('hit')
-        },
-        // offset: '100%'
-    })
+    $(".entry-content").waypoint(function(){
+        $(this[0,'element']).addClass("viewed");
+     });
 }

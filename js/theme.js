@@ -9313,12 +9313,8 @@
 	});
 
 	if ($__default["default"]("#entry-content").length) {
-	  new Waypoint({
-	    element: document.getElementById('entry-content'),
-	    handler: function (direction) {
-	      console.log('hit');
-	    } // offset: '100%'
-
+	  $__default["default"](".entry-content").waypoint(function () {
+	    $__default["default"](this[('element')]).addClass("viewed");
 	  });
 	}
 
