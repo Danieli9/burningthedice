@@ -18507,56 +18507,59 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     aspect-ratio: 1/1;
   }
 }
-.gh--singup .bg-gh .singup--holder .form-control, .gh--singup .bg-gh .singup--holder .widget_categories select, .widget_categories .gh--singup .bg-gh .singup--holder select,
-.gh--singup .bg-gh .singup--holder .widget_archive select,
-.widget_archive .gh--singup .bg-gh .singup--holder select, .gh--singup .bg-gh .singup--holder .wpcf7 input[type=text], .wpcf7 .gh--singup .bg-gh .singup--holder input[type=text],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=search],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=search],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=url],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=url],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=tel],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=tel],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=number],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=number],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=range],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=range],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=date],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=date],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=month],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=month],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=week],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=week],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=time],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=time],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=datetime],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=datetime],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=datetime-local],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=datetime-local],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=color],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=color],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=email],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=email],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=file],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=file],
-.gh--singup .bg-gh .singup--holder .wpcf7 input[type=submit],
-.wpcf7 .gh--singup .bg-gh .singup--holder input[type=submit],
-.gh--singup .bg-gh .singup--holder .wpcf7 select,
-.wpcf7 .gh--singup .bg-gh .singup--holder select,
-.gh--singup .bg-gh .singup--holder .wpcf7 textarea,
-.wpcf7 .gh--singup .bg-gh .singup--holder textarea, .gh--singup .bg-gh .singup--holder .wpcf7 .wpcf7-validation-errors, .wpcf7 .gh--singup .bg-gh .singup--holder .wpcf7-validation-errors {
-  background-color: #f9f9f9;
-  border-radius: 0;
-  padding: 20px;
+.gh--singup .bg-gh .holder--text .singup--holder {
+  background-color: #FFF;
 }
-.gh--singup .bg-gh .singup--holder h4, .gh--singup .bg-gh .singup--holder .h4 {
+.gh--singup .bg-gh .holder--text .singup--holder h4, .gh--singup .bg-gh .holder--text .singup--holder .h4 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 25px;
   font-weight: bold;
 }
-.gh--singup .bg-gh .singup--holder p {
+.gh--singup .bg-gh .holder--text .singup--holder p {
   text-align: center;
   margin-bottom: 20px;
+}
+.gh--singup .bg-gh .holder--text .singup--holder .form-control, .gh--singup .bg-gh .holder--text .singup--holder .widget_categories select, .widget_categories .gh--singup .bg-gh .holder--text .singup--holder select,
+.gh--singup .bg-gh .holder--text .singup--holder .widget_archive select,
+.widget_archive .gh--singup .bg-gh .holder--text .singup--holder select, .gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=text], .wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=text],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=search],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=search],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=url],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=url],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=tel],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=tel],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=number],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=number],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=range],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=range],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=date],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=date],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=month],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=month],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=week],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=week],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=time],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=time],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=datetime],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=datetime],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=datetime-local],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=datetime-local],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=color],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=color],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=email],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=email],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=file],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=file],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 input[type=submit],
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder input[type=submit],
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 select,
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder select,
+.gh--singup .bg-gh .holder--text .singup--holder .wpcf7 textarea,
+.wpcf7 .gh--singup .bg-gh .holder--text .singup--holder textarea, .gh--singup .bg-gh .holder--text .singup--holder .wpcf7 .wpcf7-validation-errors, .wpcf7 .gh--singup .bg-gh .holder--text .singup--holder .wpcf7-validation-errors {
+  background-color: #f9f9f9;
+  border-radius: 0;
+  padding: 20px;
 }
 
 .gh--footer {

@@ -522,22 +522,25 @@
                 }
             }
         }
-        .singup--holder {
-            .form-control {
-                background-color: #f9f9f9;
-                border-radius: 0;
-                padding: 20px;
-            }
-            h4 {
-                text-align: center;
-                margin-bottom: 20px;
-                font-size: 25px;
-                font-weight: bold;
-            }
-            p {
-                text-align: center;
-                margin-bottom: 20px;
-            }
+        .holder--text {
+            .singup--holder {
+                background-color: #FFF;
+                h4 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                p {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .form-control {
+                    background-color: #f9f9f9;
+                    border-radius: 0;
+                    padding: 20px;
+                }
+            }   
         }
     }
 
