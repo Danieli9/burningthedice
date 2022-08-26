@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 jQuery(document).ready(function($) {
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 700) {
+        if ($(this).scrollTop() > 1500) {
            $('body').addClass('move-on');
         } else {
            $('body').removeClass('move-on');
