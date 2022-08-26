@@ -108,7 +108,11 @@ if ( is_front_page() ) {
                 <div class="mb-3">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                 </div>
-                <button type="submit" class="btn-gh">Submit</button>
+                
+                <?php $ff_button = get_field( 'ff_button', 'option' ); ?>
+                <?php if ( $ff_button ) { ?>
+                  <button type="submit" class="btn-gh" href="<?php echo $ff_button['url']; ?>" target="<?php echo $ff_button['target']; ?>"><?php echo $ff_button['title']; ?></button>
+                <?php } ?>
               </form>
             </div>
           </div>
