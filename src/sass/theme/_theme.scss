@@ -705,6 +705,7 @@
         }
     }
 }
+
 #single-wrapper {
     padding: 0px;
     article {
@@ -815,4 +816,88 @@
         }
     }
 }
+
+// tutorial page
+.gh-header__tutorials {
+    text-align: center;
+    h1  {
+        margin-bottom: 15px;
+    }
+}
+
+.gh-main__section {
+    background-color: #FFF;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-top: 40px;
+    @media (min-width: 576px) {
+        padding-top: 80px;
+    }
+    .single-block {
+        max-width: 1220px;
+        margin: auto;
+        margin-top: 60px;
+        &.first {
+            margin-top: 0px;
+            .headline {
+                color: #FFF;
+            } 
+            .black-background {
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 600%;
+                    background-color: #08080d;
+                    left: -300%;
+                    z-index: -1;
+                    top: -195px;
+                    height: calc(50% + 195px);
+                    @media (min-width: 576px) {
+                        top: -195px;
+                        height: calc(50% + 195px);
+                    }
+                }
+            }
+        }
+        .headline {
+            font-size: 28px;
+            text-align: center;
+            color: #08080D;
+            font-weight: 600;
+        }
+        .image--holde {
+            overflow: hidden;
+            position: relative;
+            border-radius: 5px;
+            img {
+                transform: scale(1);
+                transition: all 400ms ease-in;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: #08080d;
+                opacity: 0;
+                transition: all 400ms ease-in;
+            }
+            &:hover {
+                &::after {
+                    opacity: 0.3;
+                } 
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+    }
+}
+
 

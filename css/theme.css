@@ -18859,4 +18859,89 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: bold;
 }
 
+.gh-header__tutorials {
+  text-align: center;
+}
+.gh-header__tutorials h1, .gh-header__tutorials .h1 {
+  margin-bottom: 15px;
+}
+
+.gh-main__section {
+  background-color: #FFF;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 10;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+@media (min-width: 576px) {
+  .gh-main__section {
+    padding-top: 80px;
+  }
+}
+.gh-main__section .single-block {
+  max-width: 1220px;
+  margin: auto;
+  margin-top: 60px;
+}
+.gh-main__section .single-block.first {
+  margin-top: 0px;
+}
+.gh-main__section .single-block.first .headline {
+  color: #FFF;
+}
+.gh-main__section .single-block.first .black-background {
+  position: relative;
+}
+.gh-main__section .single-block.first .black-background::before {
+  content: "";
+  position: absolute;
+  width: 600%;
+  background-color: #08080d;
+  left: -300%;
+  z-index: -1;
+  top: -195px;
+  height: calc(50% + 195px);
+}
+@media (min-width: 576px) {
+  .gh-main__section .single-block.first .black-background::before {
+    top: -195px;
+    height: calc(50% + 195px);
+  }
+}
+.gh-main__section .single-block .headline {
+  font-size: 28px;
+  text-align: center;
+  color: #08080D;
+  font-weight: 600;
+}
+.gh-main__section .single-block .image--holde {
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.gh-main__section .single-block .image--holde img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 400ms ease-in;
+}
+.gh-main__section .single-block .image--holde::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #08080d;
+  opacity: 0;
+  transition: all 400ms ease-in;
+}
+.gh-main__section .single-block .image--holde:hover::after {
+  opacity: 0.3;
+}
+.gh-main__section .single-block .image--holde:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=theme.css.map */
