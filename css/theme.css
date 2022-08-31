@@ -18139,13 +18139,17 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   width: 100%;
   margin-top: 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #f2ce53;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+  background-color: #e25822;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  transition: all 350ms;
 }
 .btn-gh:hover {
-  background-color: #f3d15c;
+  background-color: #f2672c;
 }
 
 .global--cta {
@@ -18239,6 +18243,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
+  font-size: 40px;
 }
 .gh--table .casionos--container .card {
   border: none;
@@ -18919,6 +18924,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   overflow: hidden;
   position: relative;
   border-radius: 5px;
+}
+.gh-main__section .single-block .image--holde a {
+  z-index: 10;
+  position: relative;
 }
 .gh-main__section .single-block .image--holde img {
   -webkit-transform: scale(1);

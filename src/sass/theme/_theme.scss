@@ -169,12 +169,16 @@
     width: 100%;
     margin-top: 20px;
     border: 1px solid rgba(#000000, 0.1);
-    background-color: #f2ce53;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+    background-color: #e25822;
+	color: #fff;
+	font-weight: bold;
+	font-size: 26px;
+	transition: all 350ms;
     &:hover {
-        background-color: #f3d15c;
+        background-color: #f2672c;
     }
 }
 
@@ -262,6 +266,7 @@
                 text-align: center;
                 font-weight: bold;
                 margin-bottom: 50px;
+                font-size: 40px;
             }
         }
         .card {
@@ -872,6 +877,10 @@
             overflow: hidden;
             position: relative;
             border-radius: 5px;
+            a {
+                z-index: 10;
+                position: relative;
+            }
             img {
                 transform: scale(1);
                 transition: all 400ms ease-in;
