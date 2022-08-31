@@ -18080,7 +18080,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover:hover, .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:focus:hover {
-    color: #80c768;
+    color: #e25822 !important;
   }
 }
 .navbar .offcanvas .offcanvas-body .right-nav {
@@ -18131,7 +18131,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 768px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li a:hover {
-    color: #80c768;
+    color: #e25822;
   }
 }
 
@@ -18169,7 +18169,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .global--cta .btn--global--cta {
   color: #fff;
-  background-color: #7fc467;
   border-radius: 10px;
   padding: 20px;
   font-weight: bold;
@@ -18179,6 +18178,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   transform: translateY(-100%);
   transition-duration: 350ms;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
+  background-color: #e25822 !important;
+  width: 175px;
+  font-size: 18px;
+  text-align: center;
+}
+.global--cta .btn--global--cta:hover {
+  background-color: #f0723c !important;
 }
 
 .move-on .global--cta {
@@ -18339,56 +18345,56 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-1 li:first-child svg {
   width: 20px;
   height: 20px;
-  fill: #3e9048;
-  stroke: #3e9048;
+  fill: #e5c554 !important;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-1 li svg {
   width: 20px;
   height: 20px;
   fill: transparent;
-  stroke: #3e9048;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-2 li:first-child svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-2 li:nth-child(2) svg {
   width: 20px;
   height: 20px;
-  fill: #3e9048;
-  stroke: #3e9048;
+  fill: #e5c554 !important;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-2 li svg {
   width: 20px;
   height: 20px;
   fill: transparent;
-  stroke: #3e9048;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-3 li:first-child svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-3 li:nth-child(2) svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-3 li:nth-child(3) svg {
   width: 20px;
   height: 20px;
-  fill: #3e9048;
-  stroke: #3e9048;
+  fill: #e5c554 !important;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-3 li svg {
   width: 20px;
   height: 20px;
   fill: transparent;
-  stroke: #3e9048;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-4 li:first-child svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-4 li:nth-child(2) svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-4 li:nth-child(3) svg, .gh--table .casionos--container .card .single--casino .casino--review ul.star-4 li:nth-child(4) svg {
   width: 20px;
   height: 20px;
-  fill: #3e9048;
-  stroke: #3e9048;
+  fill: #e5c554 !important;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-4 li svg {
   width: 20px;
   height: 20px;
   fill: transparent;
-  stroke: #3e9048;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .single--casino .casino--review ul.star-5 li svg {
   width: 20px;
   height: 20px;
-  fill: #3e9048;
-  stroke: #3e9048;
+  fill: #e5c554 !important;
+  stroke: #e5c554 !important;
 }
 .gh--table .casionos--container .card .card-body {
   display: -ms-flexbox;
@@ -18447,7 +18453,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary {
-  background-color: #6fb857;
+  background-color: #e25822 !important;
   padding: 20px 20px;
   margin-bottom: 15px;
   color: #FFF;
@@ -18460,7 +18466,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 768px) {
   .gh--table .casionos--container .card .card-body .btn--holder .btn--primary:hover {
-    background-color: #80c768;
+    background-color: #f0723c !important;
   }
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary.btn--shadow {
@@ -18474,9 +18480,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   fill: #FFF;
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--secondary {
-  color: #7fc467;
+  color: #A9A9A9;
   text-decoration: none;
   font-size: 14px;
+}
+.gh--table .casionos--container .card .card-body .btn--holder .btn--secondary:hover {
+  color: #636363;
 }
 
 .gh--content {
@@ -18630,12 +18639,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   order: 1;
 }
 .gh--footer .down--footer .down-text a {
-  color: #7fc467;
+  color: #e25822;
   text-decoration: none;
   font-weight: bold;
 }
 .gh--footer .down--footer .down-text a:hover {
-  color: #7fc467;
+  color: #f0723c;
 }
 @media (min-width: 992px) {
   .gh--footer .down--footer .down-text {
@@ -18665,6 +18674,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh--footer .down--footer .social a {
   margin-left: 20px;
+}
+.gh--footer a {
+  color: #fff;
 }
 
 .video-container {
@@ -18730,7 +18742,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 .gh-header__home .container-header__home .header-text__holder a {
-  background-color: #C91E0B;
+  background-color: #e04620;
   color: #FFF;
   font-size: 28px;
   text-decoration: none;
@@ -18749,7 +18761,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 .gh-header__home .container-header__home .header-text__holder a:hover {
-  background-color: #CC0007;
+  background-color: #e3642d;
 }
 @media (min-width: 992px) {
   .gh-header__home .container-header__home .header-text__holder a {
@@ -18869,6 +18881,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh-header__tutorials h1, .gh-header__tutorials .h1 {
   margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .gh-main__section {

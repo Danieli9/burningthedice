@@ -109,7 +109,7 @@
                         &:focus {
                             &:hover {
                                 @media (min-width: 768px) {
-                                    color: #80c768;
+                                    color: #e25822 !important;
                                 }
                             }
                             text-decoration: none
@@ -150,7 +150,7 @@
                             }
                             &:hover {
                                 @media (min-width: 768px) {
-                                    color: #80c768;
+                                    color: #e25822;
                                 }
                             }
                         }
@@ -197,7 +197,6 @@
     }
     .btn--global--cta {
         color: #fff;
-        background-color: #7fc467;
         border-radius: 10px;
         padding: 20px;
         font-weight: bold;
@@ -206,6 +205,13 @@
         transform: translateY(-100%);
         transition-duration: 350ms;
         box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
+        background-color: #e25822 !important;
+        width: 175px;
+        font-size: 18px;
+        text-align: center;
+        &:hover {
+            background-color: #f0723c !important;
+        }
     }
 } 
 
@@ -338,15 +344,15 @@
                                     svg {
                                         width: 20px;
                                         height: 20px;
-                                        fill: #3e9048;
-                                        stroke: #3e9048;
+                                        fill: #e5c554 !important;
+                                        stroke: #e5c554 !important;
                                     } 
                                 }
                                 svg {
                                     width: 20px;
                                     height: 20px;
                                     fill: transparent;
-                                    stroke: #3e9048;
+                                    stroke: #e5c554 !important;
                                 }
                             }
     
@@ -358,15 +364,15 @@
                                     svg {
                                         width: 20px;
                                         height: 20px;
-                                        fill: #3e9048;
-                                        stroke: #3e9048;
+                                        fill: #e5c554 !important;
+                                        stroke: #e5c554 !important;;
                                     } 
                                 }
                                 svg {
                                     width: 20px;
                                     height: 20px;
                                     fill: transparent;
-                                    stroke: #3e9048;
+                                    stroke: #e5c554 !important;
                                 }
                             }
                         }
@@ -378,15 +384,15 @@
                                     svg {
                                         width: 20px;
                                         height: 20px;
-                                        fill: #3e9048;
-                                        stroke: #3e9048;
+                                        fill: #e5c554 !important;
+                                        stroke: #e5c554 !important;
                                     } 
                                 }
                                 svg {
                                     width: 20px;
                                     height: 20px;
                                     fill: transparent;
-                                    stroke: #3e9048;
+                                    stroke: #e5c554 !important;
                                 }
                             }
                         }
@@ -399,15 +405,15 @@
                                     svg {
                                         width: 20px;
                                         height: 20px;
-                                        fill: #3e9048;
-                                        stroke: #3e9048;
+                                        fill: #e5c554 !important;
+                                        stroke: #e5c554 !important;
                                     } 
                                 }
                                 svg {
                                     width: 20px;
                                     height: 20px;
                                     fill: transparent;
-                                    stroke: #3e9048;
+                                    stroke: #e5c554 !important;
                                 }
                             }
                         }
@@ -416,8 +422,8 @@
                                 svg {
                                     width: 20px;
                                     height: 20px;
-                                    fill: #3e9048;
-                                    stroke: #3e9048;
+                                    fill: #e5c554 !important;
+                                    stroke: #e5c554 !important;
                                 }
                             }
                         }
@@ -464,7 +470,7 @@
                         flex: 3;
                     }
                     .btn--primary {
-                       background-color: #6fb857;
+                        background-color: #e25822 !important;
                        padding: 20px 20px;
                        margin-bottom: 15px;
                        color: #FFF; 
@@ -476,7 +482,7 @@
                        transition: all 350ms;
                        &:hover {
                         @media (min-width: 768px) {
-                            background-color: #80c768;
+                            background-color: #f0723c !important;
                         }
                        }
                        &.btn--shadow {
@@ -491,9 +497,12 @@
                         }
                     }
                     .btn--secondary {
-                        color: #7fc467;
+                        color: #A9A9A9;
                         text-decoration: none;
                         font-size: 14px;
+                        &:hover {
+                            color: #636363;
+                        }
                     }
                 }
             }
@@ -601,11 +610,11 @@
             max-width: 1200px;
             order: 1;
             a {
-                color: #7fc467;
+                color: #e25822;
                 text-decoration: none;
                 font-weight: bold;
                 &:hover {
-                    color: #7fc467;
+                    color: #f0723c;
                 }
             }
             @media (min-width: 992px) {
@@ -628,6 +637,9 @@
                 margin-left: 20px;
             }
         }
+    }
+    a {
+        color: #fff;
     }
 
 }
@@ -681,7 +693,7 @@
 
             }
             a {
-                background-color: #C91E0B;
+                background-color: #e04620;
                 color: #FFF;
                 font-size: 28px;
                 text-decoration: none;
@@ -696,7 +708,7 @@
                 transition: all 350ms;
                 box-shadow: 7px 6px 24px -12px rgb(8 8 13 / 75%);
                 &:hover {
-                    background-color: #CC0007;
+                    background-color: #e3642d;
                 }
                 @media (min-width: 992px) {
                     font-size: 30px;
@@ -827,6 +839,8 @@
     text-align: center;
     h1  {
         margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 50px;
     }
 }
 
