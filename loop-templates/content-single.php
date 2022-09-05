@@ -72,15 +72,18 @@ defined( 'ABSPATH' ) || exit;
         </div>
     </div>
 
-
-	
-
 	<div class="entry-content" id="entry-content">
 
 	  <div class="gh--content">
       <div class="container px-20 px-lg-0">
         <div class="feature-image">
           <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+        </div>
+        <div class="table--of__content">
+            <ul>
+              <li><a href="#toc1">What is the Appeal for Users of Free Online Slots and Casinos?</a></li>
+              <li><a href="#toc2">Where Do I Find These Free Online Casinos and Are They Safe?</a></li>
+            </ul>
         </div>
         <?php
         the_content();

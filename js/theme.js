@@ -9322,6 +9322,16 @@
 	  });
 	}
 
+	if ($__default["default"]("#footer").length) {
+	  $__default["default"]('#footer').waypoint(function (direction) {
+	    if (direction === "down") {
+	      console.log('stigao'); // $('body').removeClass('move-on');
+	    } else {
+	      console.log('otisao'); // $('body').addClass("move-on");
+	    }
+	  });
+	}
+
 	exports.Alert = alert;
 	exports.Button = button;
 	exports.Carousel = carousel;

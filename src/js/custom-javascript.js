@@ -30,4 +30,17 @@ if ( $( "#entry-content" ).length ) {
     });
 
 }
+if ( $( "#footer" ).length ) {
+
+    $('#footer').waypoint(function(direction) {
+        if(direction==="down") {
+            console.log('stigao');
+            // $('body').removeClass('move-on');
+        } else {
+            console.log('otisao');
+            // $('body').addClass("move-on");
+        }
+    });
+
+}
 

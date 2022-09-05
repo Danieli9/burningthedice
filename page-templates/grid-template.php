@@ -56,7 +56,7 @@ if ( is_front_page() ) {
                                         } ?>
                                     </a>
                                 </div> <!-- END OF IMAGE HOLDER  -->
-                                
+
                             <?php } ?>
                         </div> <!-- END OF COL  -->
 

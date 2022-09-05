@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<footer class="gh--footer">
+<footer id="footer" class="gh--footer">
       <div class="container px-20 px-lg-0">
       <?php the_field( 'middle_text_in_footer', 'option' ); ?>
       </div>
