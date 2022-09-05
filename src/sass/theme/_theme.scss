@@ -495,6 +495,9 @@ html{
                         svg {
                         width: 20px;
                         height: 20px;
+                        position: relative;
+                        left: 5px;
+                        bottom: 3px;
                             path {
                                 fill: #FFF;
                             }

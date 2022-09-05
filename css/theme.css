@@ -18480,6 +18480,9 @@ html {
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary svg {
   width: 20px;
   height: 20px;
+  position: relative;
+  left: 5px;
+  bottom: 3px;
 }
 .gh--table .casionos--container .card .card-body .btn--holder .btn--primary svg path {
   fill: #FFF;
