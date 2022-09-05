@@ -18873,6 +18873,9 @@ html {
 #single-wrapper {
   padding: 0px;
 }
+#single-wrapper h1, #single-wrapper .h1, #single-wrapper h2, #single-wrapper .h2, #single-wrapper h3, #single-wrapper .h3, #single-wrapper h4, #single-wrapper .h4 {
+  font-weight: 800;
+}
 #single-wrapper article {
   background-color: #f9f9f9;
 }
