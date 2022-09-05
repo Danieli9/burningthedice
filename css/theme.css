@@ -18606,6 +18606,9 @@ html {
   border-radius: 0;
   padding: 20px;
 }
+.gh--singup .bg-gh .holder--text .singup--holder .input {
+  color: #666;
+}
 
 .gh--footer {
   margin-top: 150px;
