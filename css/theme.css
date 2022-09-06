@@ -18151,6 +18151,7 @@ html {
   font-weight: bold;
   font-size: 26px;
   transition: all 350ms;
+  font-weight: 800;
 }
 .btn-gh:hover {
   background-color: #f2672c;
@@ -18214,9 +18215,11 @@ html {
 }
 .gh--header h1, .gh--header .h1 {
   text-align: center;
-  font-weight: bold;
   margin-bottom: 50px;
   font-size: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 .gh--header h1 br, .gh--header .h1 br {
   display: none;
@@ -18259,9 +18262,11 @@ html {
 }
 .gh--table .casionos--container.home-page h3, .gh--table .casionos--container.home-page .h3 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 50px;
   font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 .gh--table .casionos--container .card {
   border: none;
@@ -18513,8 +18518,10 @@ html {
 }
 .gh--content h3, .gh--content .h3 {
   font-size: 30px;
-  font-weight: bold;
   padding-top: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 .gh--content p:last-child {
   margin-bottom: 0;
@@ -18741,11 +18748,13 @@ html {
 }
 .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 28px;
   margin-bottom: 0;
   color: #FFF;
   margin-bottom: 50px;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 @media (min-width: 992px) {
   .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
@@ -18763,6 +18772,7 @@ html {
   background-color: #e04620;
   color: #FFF;
   font-size: 28px;
+  font-weight: 800;
   text-decoration: none;
   text-align: center;
   margin: auto;
@@ -18801,9 +18811,11 @@ html {
 }
 .gh--text__place .gh--text__holder h3, .gh--text__place .gh--text__holder .h3 {
   font-size: 22px;
-  line-height: 1.5;
   color: #666;
   margin-bottom: 0px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 
 .gh--home__thumbs {
@@ -18820,6 +18832,8 @@ html {
   color: #666;
   margin-bottom: 30px;
   text-align: center;
+  font-weight: 800;
+  letter-spacing: 0px;
 }
 .gh--home__thumbs .single-block .image--holde {
   overflow: hidden;
@@ -18875,6 +18889,8 @@ html {
 }
 #single-wrapper h1, #single-wrapper .h1, #single-wrapper h2, #single-wrapper .h2, #single-wrapper h3, #single-wrapper .h3, #single-wrapper h4, #single-wrapper .h4 {
   font-weight: 800 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0px !important;
 }
 #single-wrapper article {
   background-color: #f9f9f9;
@@ -18918,7 +18934,8 @@ html {
 #single-wrapper article .entry-content .gh--content h1, #single-wrapper article .entry-content .gh--content .h1 {
   margin-bottom: 50px;
   color: #2b2b2b;
-  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 #single-wrapper article .entry-content .gh--content p, #single-wrapper article .entry-content .gh--content span {
   font-size: 20px;
@@ -18936,6 +18953,11 @@ html {
   background-color: #f9f9f9;
   color: #000;
   padding: 50px 0px;
+}
+#archive-wrapper h1, #archive-wrapper .h1, #archive-wrapper h2, #archive-wrapper .h2, #archive-wrapper h3, #archive-wrapper .h3, #archive-wrapper h4, #archive-wrapper .h4 {
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0px !important;
 }
 #archive-wrapper article {
   margin: 40px 0px;
@@ -18971,6 +18993,11 @@ html {
   color: #FFF;
 }
 
+#page-wrapper h1, #page-wrapper .h1, #page-wrapper h2, #page-wrapper .h2, #page-wrapper h3, #page-wrapper .h3, #page-wrapper h4, #page-wrapper .h4 {
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0px !important;
+}
 #page-wrapper .entry-title {
   text-align: center;
   padding-bottom: 70px;
@@ -18990,7 +19017,8 @@ html {
 #page-wrapper .entry-content .gh--page-content h1, #page-wrapper .entry-content .gh--page-content .h1 {
   margin-bottom: 50px;
   color: #2b2b2b;
-  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0px;
 }
 #page-wrapper .entry-content .gh--page-content p {
   font-size: 20px;

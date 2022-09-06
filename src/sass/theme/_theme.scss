@@ -180,6 +180,7 @@ html{
 	font-weight: bold;
 	font-size: 26px;
 	transition: all 350ms;
+    font-weight: 800;
     &:hover {
         background-color: #f2672c;
     }
@@ -242,9 +243,11 @@ html{
     background-color: #08080D;
     h1 {
         text-align: center;
-        font-weight: bold;
         margin-bottom: 50px;
         font-size: 50px;
+        font-weight: 800;
+        line-height: 1.2;
+        letter-spacing: 0px;
         br {
             display: none;
             @media (min-width: 768px) {
@@ -281,9 +284,11 @@ html{
             padding: 200px 0 150px 0;
             h3 {
                 text-align: center;
-                font-weight: bold;
+                font-weight: 800;
                 margin-bottom: 50px;
                 font-size: 40px;
+                line-height: 1.2;
+                letter-spacing: 0px;
             }
         }
         .card {
@@ -534,8 +539,10 @@ html{
     top: -50px;
     h3 {
         font-size: 30px;
-        font-weight: bold;
         padding-top: 30px;
+        font-weight: 800;
+        line-height: 1.2;
+        letter-spacing: 0px;
     }
     p {
         &:last-child {
@@ -694,11 +701,13 @@ html{
             }
             h1 {
                 text-align: center;
-                font-weight: bold;
+                font-weight: 800;
                 font-size: 28px;
                 margin-bottom: 0;
                 color: #FFF;
                 margin-bottom: 50px;
+                line-height: 1.2;
+                letter-spacing: 0px;
                 @media (min-width: 992px) {
                     font-size: 30px;
                     color: #FFF;
@@ -713,6 +722,7 @@ html{
                 background-color: #e04620;
                 color: #FFF;
                 font-size: 28px;
+                font-weight: 800;
                 text-decoration: none;
                 text-align: center;
                 margin: auto;
@@ -746,13 +756,14 @@ html{
     text-align: center;
     padding: 30px 0;
     .gh--text__holder {
-        // max-width: 1150px;
-        // margin: auto;
+
         h3 {
             font-size: 22px;
-            line-height: 1.5;
             color: #666;
             margin-bottom: 0px;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: 0px;
         }
     }
 }
@@ -769,6 +780,8 @@ html{
             color: #666;
             margin-bottom: 30px;
             text-align: center;
+            font-weight: 800;
+            letter-spacing: 0px;
         }
         .image--holde {
             overflow: hidden;
@@ -823,6 +836,8 @@ html{
     padding: 0px;
     h1,h2,h3,h4 {
         font-weight: 800 !important;
+        line-height: 1.2 !important;
+        letter-spacing: 0px !important;
     }
     article {
         background-color: #f9f9f9;
@@ -863,7 +878,8 @@ html{
                 h1 {
                     margin-bottom: 50px;
                     color: #2b2b2b;
-                    font-weight: bold;
+                    line-height: 1.2;
+                    letter-spacing: 0px;
                 }
                 p, span {
                     font-size: 20px;
@@ -885,6 +901,11 @@ html{
     background-color: #f9f9f9;
     color: #000;
     padding: 50px 0px;
+    h1,h2,h3,h4 {
+        font-weight: 800 !important;
+        line-height: 1.2 !important;
+        letter-spacing: 0px !important;
+    }
     article {
         margin: 40px 0px;
         .entry-title {
@@ -926,6 +947,11 @@ html{
 }
 
 #page-wrapper {
+    h1,h2,h3,h4 {
+        font-weight: 800 !important;
+        line-height: 1.2 !important;
+        letter-spacing: 0px !important;
+    }
     .entry-title {
         text-align: center;
         padding-bottom: 70px;
@@ -944,7 +970,8 @@ html{
             h1 {
                 margin-bottom: 50px;
                 color: #2b2b2b;
-                font-weight: bold;
+                line-height: 1.2;
+                letter-spacing: 0px;
             }
             p {
                 font-size: 20px;
