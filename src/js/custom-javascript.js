@@ -28,7 +28,7 @@ var waypoint = new Waypoint({
 })
 
 var waypointFooter = new Waypoint({
-    element: document.getElementById('footer'),
+    element: document.getElementById('gh--singup'),
     handler: function(direction) {
         if(direction==="down") {
             $('body').removeClass('move-on'); 
@@ -36,6 +36,6 @@ var waypointFooter = new Waypoint({
             $('body').addClass("move-on");
         }
     },
-    offset: '100%' + 150
+    offset: '53%'
 })
 

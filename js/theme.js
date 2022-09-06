@@ -9324,7 +9324,7 @@
 	  offset: 145
 	});
 	new Waypoint({
-	  element: document.getElementById('footer'),
+	  element: document.getElementById('gh--singup'),
 	  handler: function (direction) {
 	    if (direction === "down") {
 	      $__default["default"]('body').removeClass('move-on');
@@ -9332,7 +9332,7 @@
 	      $__default["default"]('body').addClass("move-on");
 	    }
 	  },
-	  offset: '100%' + 150
+	  offset: '53%'
 	});
 
 	exports.Alert = alert;

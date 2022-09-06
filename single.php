@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 
 			</main><!-- #main -->
-			<div class="gh--singup">
+			<div class="gh--singup" id="gh--singup">
 			<div class="container px-20 px-lg-0">
 				<div class="bg-gh">
 				<div class="holder--img">
