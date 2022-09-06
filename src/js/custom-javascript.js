@@ -3,7 +3,7 @@ import Waypoints from 'waypoints';
 
 // Add your JS customizations here
 
-// anchor tags
+// anchor tags jump
 jQuery(document).ready(function($) {
 
     $(".sliding-link").click(function(e) {
@@ -14,30 +14,28 @@ jQuery(document).ready(function($) {
 
 })
 
-
-
-if ( $( "#entry-content" ).length ) {
-
-    $('#entry-content').waypoint(function(direction) {
+// waypoints for global cta 
+var waypoint = new Waypoint({
+    element: document.getElementById('entry-content'),
+    handler: function(direction) {
         if(direction==="down") {
             $('body').addClass("move-on");
         } else {
             $('body').removeClass('move-on');
         }
-    });
+    },
+    offset: 145
+})
 
-}
-if ( $( "#footer" ).length ) {
-
-    $('#footer').waypoint(function(direction) {
+var waypointFooter = new Waypoint({
+    element: document.getElementById('footer'),
+    handler: function(direction) {
         if(direction==="down") {
-            console.log('stigao');
-            // $('body').removeClass('move-on');
+            $('body').removeClass('move-on'); 
         } else {
-            console.log('otisao');
-            // $('body').addClass("move-on");
+            $('body').addClass("move-on");
         }
-    });
-
-}
+    },
+    offset: '100%' + 150
+})
 

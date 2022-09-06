@@ -9300,7 +9300,7 @@
 	  }
 	})();
 
-	// anchor tags
+	// anchor tags jump
 
 	jQuery(document).ready(function ($) {
 	  $(".sliding-link").click(function (e) {
@@ -9310,27 +9310,30 @@
 	      scrollTop: $(aid).offset().top
 	    }, 10);
 	  });
-	});
+	}); // waypoints for global cta 
 
-	if ($__default["default"]("#entry-content").length) {
-	  $__default["default"]('#entry-content').waypoint(function (direction) {
+	new Waypoint({
+	  element: document.getElementById('entry-content'),
+	  handler: function (direction) {
 	    if (direction === "down") {
 	      $__default["default"]('body').addClass("move-on");
 	    } else {
 	      $__default["default"]('body').removeClass('move-on');
 	    }
-	  });
-	}
-
-	if ($__default["default"]("#footer").length) {
-	  $__default["default"]('#footer').waypoint(function (direction) {
+	  },
+	  offset: 145
+	});
+	new Waypoint({
+	  element: document.getElementById('footer'),
+	  handler: function (direction) {
 	    if (direction === "down") {
-	      console.log('stigao'); // $('body').removeClass('move-on');
+	      $__default["default"]('body').removeClass('move-on');
 	    } else {
-	      console.log('otisao'); // $('body').addClass("move-on");
+	      $__default["default"]('body').addClass("move-on");
 	    }
-	  });
-	}
+	  },
+	  offset: '100%' + 150
+	});
 
 	exports.Alert = alert;
 	exports.Button = button;
