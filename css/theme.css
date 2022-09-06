@@ -19024,15 +19024,21 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .gh-header__tutorials {
   text-align: center;
+  padding-top: 100px;
 }
 .gh-header__tutorials h1, .gh-header__tutorials .h1 {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 50px;
 }
+.gh-header__tutorials p {
+  text-align: center;
+  max-width: 630px;
+  margin: auto;
+}
 
 .gh-main__section {
-  background-color: #FFF;
+  background-color: #f9f9f9;
   padding-bottom: 100px;
   position: relative;
   z-index: 10;
@@ -19047,7 +19053,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh-main__section .single-block {
   max-width: 1220px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .gh-main__section .single-block.first {
   margin-top: 0px;
