@@ -81,8 +81,10 @@ defined( 'ABSPATH' ) || exit;
         </div>
         <div class="table--of__content">
             <ul>
-              <li><a href="#toc1">What is the Appeal for Users of Free Online Slots and Casinos?</a></li>
-              <li><a href="#toc2">Where Do I Find These Free Online Casinos and Are They Safe?</a></li>
+            <?php if ( have_rows( 'table_of_content' ) ) : while ( have_rows( 'table_of_content' ) ) : the_row(); ?>
+                <li><a href="#<?php the_sub_field( 'toc_id' ); ?>" class="sliding-link"><?php the_sub_field( 'toc_title' ); ?></a></li>
+            <?php endwhile; else : endif;?>
+              
             </ul>
         </div>
         <?php

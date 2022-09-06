@@ -17944,10 +17944,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid #e9ecef;
 }
 
-html {
-  scroll-behavior: smooth !important;
-}
-
 .mh-55px {
   min-height: 55px;
 }
@@ -18906,9 +18902,7 @@ html {
   box-shadow: 10px 17px 36px -12px rgba(8, 8, 13, 0.81);
 }
 #single-wrapper article .entry-content .gh--content .table--of__content {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   padding: 50px 50px 30px 20px;
   background-color: #FFF;
   border: 1px dashed #6fb857;

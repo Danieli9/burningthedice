@@ -1,8 +1,8 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-html{
-    scroll-behavior:smooth !important;
-}
+// html{
+//     scroll-behavior: smooth;
+// }
 // header
 .mh-55px {
     min-height: 55px;
@@ -667,6 +667,7 @@ html{
     }
 
 }
+
 .video-container {
     position: relative;
     padding-bottom: 50.25%;
@@ -852,7 +853,7 @@ html{
                     }
                 }
                 .table--of__content {
-                    width: fit-content;
+                    width: 100%;
                     padding: 50px 50px 30px 20px;
                     background-color: #FFF;
                     border: 1px dashed #6fb857;
@@ -1072,5 +1073,3 @@ html{
 
     }
 }
-
-

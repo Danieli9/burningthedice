@@ -9300,16 +9300,16 @@
 	  }
 	})();
 
-	jQuery(document).ready(function ($) {// $(window).scroll(function(){
-	  //     if ($(this).scrollTop() > 1500) {
-	  //        $('body').addClass('move-on');
-	  //     } else {
-	  //        $('body').removeClass('move-on');
-	  //     }
-	  // });
-	  // $('.entry-content').waypoint({
-	  // console.log('hit'),
-	  // offset: '100%'});
+	// anchor tags
+
+	jQuery(document).ready(function ($) {
+	  $(".sliding-link").click(function (e) {
+	    e.preventDefault();
+	    var aid = $(this).attr("href");
+	    $('html,body').animate({
+	      scrollTop: $(aid).offset().top
+	    }, 10);
+	  });
 	});
 
 	if ($__default["default"]("#entry-content").length) {
