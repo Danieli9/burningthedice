@@ -71,6 +71,34 @@ if ( is_front_page() ) {
     </div>
 </div>
 
+<div class="gh--singup" id="gh--singup">
+    <div class="container px-20 px-lg-0">
+        <div class="bg-gh">
+        <div class="holder--img">
+            <?php $image = get_field( 'image', 'option' ); ?>
+            <?php if ( $image ) { ?>
+                <img class="img-fluid" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+            <?php } ?>
+        </div>
+        <div class="holder--text d-flex align-self-center p-40">
+            <div class="singup--holder">
+            <h4><?php the_field( 'title', 'option' ); ?></h4>
+            <?php the_field( 'description', 'option' ); ?>
+            <form>
+                <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <?php $ff_button = get_field( 'ff_button', 'option' ); ?>
+                <?php if ( $ff_button ) { ?>
+                    <button type="submit" class="btn-gh" href="<?php echo $ff_button['url']; ?>" target="<?php echo $ff_button['target']; ?>"><?php echo $ff_button['title']; ?></button>
+                <?php } ?>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
 
 </div><!-- #full-width-page-wrapper -->
 
