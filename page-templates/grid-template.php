@@ -10,7 +10,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-get_header('custom');
+get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 
 if ( is_front_page() ) {
