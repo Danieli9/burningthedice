@@ -71,6 +71,7 @@ if ( is_front_page() ) {
     </div>
 </div>
 
+
 <div class="gh--singup" id="gh--singup">
     <div class="container px-20 px-lg-0">
         <div class="bg-gh">
