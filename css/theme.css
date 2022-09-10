@@ -18254,7 +18254,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh--table .casionos--container.home-page {
   top: 0px;
-  padding: 200px 0 150px 0;
+  padding: 200px 0 200px 0;
 }
 .gh--table .casionos--container.home-page h3, .gh--table .casionos--container.home-page .h3 {
   text-align: center;
@@ -18722,7 +18722,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .gh-header__home {
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   background: linear-gradient(180deg, #08080d 90%, #f9f9f9 90%);
 }
 @media (min-width: 992px) {
@@ -18736,6 +18736,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh-header__home .container-header__home .header-text__holder {
   -ms-flex-item-align: center;
   align-self: center;
+  padding: 0 0 0 75px;
 }
 @media (min-width: 1400px) {
   .gh-header__home .container-header__home .header-text__holder {
@@ -18816,7 +18817,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .gh--home__thumbs {
   background-color: #f9f9f9;
-  padding-top: 150px;
+  padding-top: 225px;
 }
 .gh--home__thumbs .single-block {
   max-width: 1220px;
@@ -18825,7 +18826,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh--home__thumbs .single-block h4, .gh--home__thumbs .single-block .h4 {
   font-size: 40px;
   line-height: 1.5;
-  color: #666;
+  color: #000;
   margin-bottom: 30px;
   text-align: center;
   font-weight: 800;
@@ -18878,6 +18879,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh--bottom__arrow svg {
   max-width: 70px;
+  margin: 50px;
 }
 
 #single-wrapper {

@@ -281,7 +281,7 @@
         }
         &.home-page {
             top: 0px;
-            padding: 200px 0 150px 0;
+            padding: 200px 0 200px 0;
             h3 {
                 text-align: center;
                 font-weight: 800;
@@ -688,7 +688,7 @@
 
 .gh-header__home {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     background: linear-gradient(180deg, rgba(8,8,13,1) 90%, rgba(249,249,249,1) 90%);
     @media (min-width: 992px) {
         background: linear-gradient(180deg, rgba(8,8,13,1) 52%, rgba(249,249,249,1) 52%);
@@ -697,6 +697,7 @@
         max-width: 1700px;
         .header-text__holder {
             align-self: center;
+            padding: 0 0 0 75px;
             @media (min-width: 1400px) {
                 margin-bottom: 17px;
             }
@@ -771,14 +772,14 @@
 
 .gh--home__thumbs {
     background-color: #f9f9f9;
-    padding-top: 150px;
+    padding-top: 225px;
     .single-block {
         max-width: 1220px;
         margin: auto;
         h4 {
             font-size: 40px;
             line-height: 1.5;
-            color: #666;
+            color: #000;
             margin-bottom: 30px;
             text-align: center;
             font-weight: 800;
@@ -830,6 +831,7 @@
     padding-top: 150px;
     svg {
         max-width: 70px;
+        margin: 50px;
     }
 }
 
