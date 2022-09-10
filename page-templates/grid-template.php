@@ -45,6 +45,7 @@ if ( is_front_page() ) {
                 <?php if ( have_rows( 'single_item' ) ) : 
                         while ( have_rows( 'single_item' ) ) : the_row(); 
                         $single_item_image = get_sub_field( 'single_item_image' );
+                        $single_item_image_hover = get_sub_field( 'single_item_image_hover' );
                         $single_item_url = get_sub_field( 'single_item_url' ); ?>
 
                         <div class="col-md-6<?php if( $rowCount <= 1 ) { ?> black-background<?php } ?>">
@@ -52,7 +53,10 @@ if ( is_front_page() ) {
                                 <div class="image--holde">
                                     <a href="<?= $single_item_url['url']; ?>" target="<?= $single_item_url['target']; ?>">  <?php
                                         if ( $single_item_image ) { 
-                                            echo wp_get_attachment_image( $single_item_image, 'large', false, array('class' => 'my-custom-class') );
+                                            echo wp_get_attachment_image( $single_item_image, 'large', false, array('class' => 'image-main') );
+                                        }
+                                        if ( $single_item_image_hover ) { 
+                                            echo wp_get_attachment_image( $single_item_image_hover, 'large', false, array('class' => 'image-hover') );
                                         } ?>
                                     </a>
                                 </div> <!-- END OF IMAGE HOLDER  -->
