@@ -701,6 +701,9 @@
             @media (min-width: 576px) {
                 
             }
+            @media (min-width: 992px) {
+                margin-top: 98px;
+            }
             @media (min-width: 1200px) {
                 margin-top: 80px;
                 padding: 0 0 0 75px !important;
@@ -757,6 +760,9 @@
                     margin-bottom: 0px;
                 }
                 @media (min-width: 1200px) {
+                    font-size: 35px;
+                }
+                @media (min-width: 1400px) {
                     font-size: 40px;
                 }
 

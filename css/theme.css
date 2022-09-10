@@ -18738,6 +18738,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   align-self: center;
   padding: 0 !important;
 }
+@media (min-width: 992px) {
+  .gh-header__home .container-header__home .header-text__holder {
+    margin-top: 98px;
+  }
+}
 @media (min-width: 1200px) {
   .gh-header__home .container-header__home .header-text__holder {
     margin-top: 80px;
@@ -18807,6 +18812,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 @media (min-width: 1200px) {
+  .gh-header__home .container-header__home .header-text__holder a {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1400px) {
   .gh-header__home .container-header__home .header-text__holder a {
     font-size: 40px;
   }
