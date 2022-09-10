@@ -19101,6 +19101,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh-main__section .single-block .image--holde a {
   z-index: 10;
   position: relative;
+  display: block;
 }
 .gh-main__section .single-block .image--holde a .image-hover {
   position: absolute;
@@ -19112,6 +19113,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   object-fit: contain;
   opacity: 0;
   transition: opacity 0.2s;
+}
+.gh-main__section .single-block .image--holde a:hover .image-hover {
+  opacity: 1;
 }
 
 #error-404-wrapper {
