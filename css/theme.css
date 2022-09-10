@@ -18738,14 +18738,15 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   align-self: center;
   padding: 0 !important;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   .gh-header__home .container-header__home .header-text__holder {
+    margin-top: 80px;
     padding: 0 0 0 75px !important;
   }
 }
 @media (min-width: 1400px) {
   .gh-header__home .container-header__home .header-text__holder {
-    margin-bottom: 17px;
+    margin-top: 80px;
   }
 }
 .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
@@ -18766,6 +18767,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
 }
 @media (min-width: 1200px) {
+  .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1400px) {
   .gh-header__home .container-header__home .header-text__holder h1, .gh-header__home .container-header__home .header-text__holder .h1 {
     font-size: 40px;
   }
@@ -18788,6 +18794,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: bold;
   margin-bottom: 60px;
   transition: all 350ms;
+  white-space: nowrap;
   box-shadow: 7px 6px 24px -12px rgba(8, 8, 13, 0.75);
 }
 .gh-header__home .container-header__home .header-text__holder a:hover {
@@ -19112,7 +19119,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   -o-object-fit: contain;
   object-fit: contain;
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.3s;
 }
 .gh-main__section .single-block .image--holde a:hover .image-hover {
   opacity: 1;
