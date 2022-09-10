@@ -52,7 +52,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-root-font-size: 0.625rem;
-  --bs-body-font-family: Space Grotesk, sans-serif;
+  --bs-body-font-family: sans-serif;
   --bs-body-font-size: 1.6rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -18736,11 +18736,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh-header__home .container-header__home .header-text__holder {
   -ms-flex-item-align: center;
   align-self: center;
-  padding: 0 0 0 75px;
+  padding: 0 0 0 75px !important;
 }
 @media (min-width: 576px) {
   .gh-header__home .container-header__home .header-text__holder {
-    padding: 0;
+    padding: 0 !important;
   }
 }
 @media (min-width: 1400px) {
