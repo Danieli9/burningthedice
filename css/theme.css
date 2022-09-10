@@ -19102,10 +19102,16 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   z-index: 10;
   position: relative;
 }
-.gh-main__section .single-block .image--holde img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  transition: all 400ms ease-in;
+.gh-main__section .single-block .image--holde a .image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
 }
 
 #error-404-wrapper {
