@@ -1063,25 +1063,6 @@
                 transform: scale(1);
                 transition: all 400ms ease-in;
             }
-            &::after {
-                content: '';
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                background-color: #08080d;
-                opacity: 0;
-                transition: all 400ms ease-in;
-            }
-            &:hover {
-                &::after {
-                    opacity: 0.3;
-                } 
-                img {
-                    transform: scale(1.1);
-                }
-            }
         }
 
     }

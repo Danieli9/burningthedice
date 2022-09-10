@@ -52,7 +52,7 @@ if ( is_front_page() ) {
                                 <div class="image--holde">
                                     <a href="<?= $single_item_url['url']; ?>" target="<?= $single_item_url['target']; ?>">  <?php
                                         if ( $single_item_image ) { 
-                                            echo wp_get_attachment_image( $single_item_image, 'full' );
+                                            echo wp_get_attachment_image( $single_item_image, 'full', ["class" => "image-main"] );
                                         } ?>
                                     </a>
                                 </div> <!-- END OF IMAGE HOLDER  -->
