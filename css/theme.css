@@ -18738,6 +18738,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   align-self: center;
   padding: 0 0 0 75px;
 }
+@media (min-width: 576px) {
+  .gh-header__home .container-header__home .header-text__holder {
+    padding: 0;
+  }
+}
 @media (min-width: 1400px) {
   .gh-header__home .container-header__home .header-text__holder {
     margin-bottom: 17px;
