@@ -115,14 +115,14 @@ if ( is_front_page() ) {
           <?php if ( have_rows( 'we_recommended' ) ) : while ( have_rows( 'we_recommended' ) ) : the_row(); ?>
             <div class="col-md-<?php the_sub_field( 'width' ); ?>">
               <div class="image--holde">
-              <?php $image = get_sub_field( 'image' ); ?>
-              <?php $link = get_sub_field( 'link' ); ?>
-                <?php if ( $link ) { ?>
-                  <a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>">
-                <?php } ?>
-                <?php if ( $image ) { ?>
-                  <?php echo wp_get_attachment_image( $image, 'full' ); ?>
-                <?php } ?>
+              <?php $image = get_sub_field( 'image' ); 
+                    $link = get_sub_field( 'link' ); 
+                      if ( $link ) { 
+                        ?><a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php
+                      } 
+                      if ( $image ) {
+                        echo wp_get_attachment_image( $image, 'full' );
+                      } ?>
                   </a>
               </div> 
             </div>
