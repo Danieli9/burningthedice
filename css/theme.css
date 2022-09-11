@@ -17931,6 +17931,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh--content p:last-child {
   margin-bottom: 0;
 }
+.gh--content a {
+  text-decoration: none;
+  color: #071925;
+}
+.gh--content a:hover {
+  color: #e25822;
+}
 
 .gh--singup {
   padding-top: 150px;
@@ -18354,6 +18361,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   margin-top: 50px;
   box-shadow: 10px 17px 36px -12px rgba(8, 8, 13, 0.81);
 }
+#single-wrapper article .entry-content .gh--content a {
+  text-decoration: none;
+  color: #071925;
+}
+#single-wrapper article .entry-content .gh--content a:hover {
+  color: #e25822;
+}
 
 #archive-wrapper {
   background-color: #f9f9f9;
@@ -18364,6 +18378,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: 800 !important;
   line-height: 1.2 !important;
   letter-spacing: 0px !important;
+}
+#archive-wrapper a {
+  text-decoration: none;
+  color: #071925;
+}
+#archive-wrapper a:hover {
+  color: #e25822;
 }
 #archive-wrapper article {
   margin: 40px 0px;
@@ -18432,6 +18453,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #page-wrapper .entry-content .gh--page-content h5, #page-wrapper .entry-content .gh--page-content .h5 {
   margin: 30px 0;
   font-weight: bold;
+}
+#page-wrapper .entry-content .gh--page-content a {
+  text-decoration: none;
+  color: #071925;
+}
+#page-wrapper .entry-content .gh--page-content a:hover {
+  color: #e25822;
 }
 
 .gh-header__tutorials {
