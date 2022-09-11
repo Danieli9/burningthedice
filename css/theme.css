@@ -17519,7 +17519,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   align-self: center;
   margin-top: 50px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar .offcanvas .offcanvas-body .right-nav {
     margin-top: 0;
   }
@@ -17530,7 +17530,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   padding-left: 0px;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul {
     flex-direction: row;
   }
@@ -17539,7 +17539,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   list-style-type: none;
   margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li {
     margin-bottom: 0;
   }
@@ -17551,13 +17551,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: bold;
   transition: all 350ms;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li a {
     font-size: 16px;
     padding: 20px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar .offcanvas .offcanvas-body .right-nav ul li a:hover {
     color: #e25822;
   }
