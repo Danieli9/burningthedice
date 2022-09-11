@@ -18297,6 +18297,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   max-width: 70px;
   margin: 50px;
 }
+.gh--bottom__arrow svg path {
+  fill: #43A047;
+}
 
 #single-wrapper {
   padding: 0px;
