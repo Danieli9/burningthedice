@@ -17934,6 +17934,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .gh--content a {
   text-decoration: none;
   color: #071925;
+  transition: all 0.3s;
 }
 .gh--content a:hover {
   color: #e25822;
@@ -18364,6 +18365,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #single-wrapper article .entry-content .gh--content a {
   text-decoration: none;
   color: #071925;
+  transition: all 0.3s;
 }
 #single-wrapper article .entry-content .gh--content a:hover {
   color: #e25822;
@@ -18382,6 +18384,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #archive-wrapper a {
   text-decoration: none;
   color: #071925;
+  transition: all 0.3s;
 }
 #archive-wrapper a:hover {
   color: #e25822;
@@ -18457,6 +18460,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 #page-wrapper .entry-content .gh--page-content a {
   text-decoration: none;
   color: #071925;
+  transition: all 0.3s;
 }
 #page-wrapper .entry-content .gh--page-content a:hover {
   color: #e25822;
