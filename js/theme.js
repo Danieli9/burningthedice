@@ -47,7 +47,7 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory() ;
-	})(commonjsGlobal, (function () {
+	})(commonjsGlobal, function () {
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
@@ -66,18 +66,19 @@
 
 	    return null;
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): dom/event-handler.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const namespaceRegex = /[^.]*(?=\..*)\.|.*/;
 	  const stripNameRegex = /\..*/;
@@ -354,11 +355,8 @@
 	    }
 
 	  };
-
 	  return EventHandler;
-
-	}));
-
+	});
 	}(eventHandler));
 
 	var baseComponent = {exports: {}};
@@ -374,7 +372,7 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory() ;
-	})(commonjsGlobal, (function () {
+	})(commonjsGlobal, function () {
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): dom/data.js
@@ -387,6 +385,7 @@
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 	  const elementMap = new Map();
 	  const data = {
 	    set(element, key, instance) {
@@ -428,11 +427,8 @@
 	    }
 
 	  };
-
 	  return data;
-
-	}));
-
+	});
 	}(data));
 
 	/*!
@@ -444,18 +440,23 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(data.exports, eventHandler.exports) ;
-	})(commonjsGlobal, (function (Data, EventHandler) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (Data, EventHandler) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const Data__default = /*#__PURE__*/_interopDefaultLegacy(Data);
-	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
 
+	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const MILLISECONDS_MULTIPLIER = 1000;
 	  const TRANSITION_END = 'transitionend'; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
 
@@ -546,18 +547,19 @@
 	      }
 	    }, emulatedDuration);
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): base-component.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const VERSION = '5.1.3';
 
@@ -614,9 +616,7 @@
 	  }
 
 	  return BaseComponent;
-
-	}));
-
+	});
 	}(baseComponent));
 
 	/*!
@@ -628,18 +628,22 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const getSelector = element => {
 	    let selector = element.getAttribute('data-bs-target');
@@ -733,13 +737,13 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/component-functions.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const enableDismissTrigger = (component, method = 'hide') => {
 	    const clickEvent = `click.dismiss${component.EVENT_KEY}`;
@@ -759,18 +763,19 @@
 	      instance[method]();
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): alert.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'alert';
 	  const DATA_KEY = 'bs.alert';
@@ -848,11 +853,8 @@
 	   */
 
 	  defineJQueryPlugin(Alert);
-
 	  return Alert;
-
-	}));
-
+	});
 	}(alert$1));
 
 	var alert = alert$1.exports;
@@ -868,18 +870,22 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const getjQuery = () => {
 	    const {
@@ -928,18 +934,19 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): button.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'button';
 	  const DATA_KEY = 'bs.button';
@@ -999,11 +1006,8 @@
 	   */
 
 	  defineJQueryPlugin(Button);
-
 	  return Button;
-
-	}));
-
+	});
 	}(button$1));
 
 	var button = button$1.exports;
@@ -1021,13 +1025,14 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory() ;
-	})(commonjsGlobal, (function () {
+	})(commonjsGlobal, function () {
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): dom/manipulator.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  function normalizeData(val) {
 	    if (val === 'true') {
 	      return true;
@@ -1095,11 +1100,8 @@
 	    }
 
 	  };
-
 	  return Manipulator;
-
-	}));
-
+	});
 	}(manipulator));
 
 	var selectorEngine = {exports: {}};
@@ -1113,7 +1115,7 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory() ;
-	})(commonjsGlobal, (function () {
+	})(commonjsGlobal, function () {
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
@@ -1156,13 +1158,14 @@
 
 	    return element.hasAttribute('disabled') && element.getAttribute('disabled') !== 'false';
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): dom/selector-engine.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const NODE_TEXT = 3;
 	  const SelectorEngine = {
 	    find(selector, element = document.documentElement) {
@@ -1226,11 +1229,8 @@
 	    }
 
 	  };
-
 	  return SelectorEngine;
-
-	}));
-
+	});
 	}(selectorEngine));
 
 	/*!
@@ -1242,20 +1242,27 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const TRANSITION_END = 'transitionend'; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
 
 	  const toType = obj => {
@@ -1421,18 +1428,19 @@
 
 	    return list[Math.max(0, Math.min(index, listLength - 1))];
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): carousel.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'carousel';
 	  const DATA_KEY = 'bs.carousel';
@@ -1970,11 +1978,8 @@
 	   */
 
 	  defineJQueryPlugin(Carousel);
-
 	  return Carousel;
-
-	}));
-
+	});
 	}(carousel$1));
 
 	var carousel = carousel$1.exports;
@@ -1990,21 +1995,28 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(data.exports, eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (Data, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (Data, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const Data__default = /*#__PURE__*/_interopDefaultLegacy(Data);
-	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
+
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const toType = obj => {
 	    if (obj === null || obj === undefined) {
@@ -2151,18 +2163,19 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): collapse.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'collapse';
 	  const DATA_KEY = 'bs.collapse';
@@ -2470,11 +2483,8 @@
 	   */
 
 	  defineJQueryPlugin(Collapse);
-
 	  return Collapse;
-
-	}));
-
+	});
 	}(collapse$1));
 
 	var collapse = collapse$1.exports;
@@ -2708,17 +2718,17 @@
 	    return true;
 	  } // then fallback to custom implementation with Shadow DOM support
 	  else if (rootNode && isShadowRoot(rootNode)) {
-	      var next = child;
+	    var next = child;
 
-	      do {
-	        if (next && parent.isSameNode(next)) {
-	          return true;
-	        } // $FlowFixMe[prop-missing]: need a better way to handle this...
+	    do {
+	      if (next && parent.isSameNode(next)) {
+	        return true;
+	      } // $FlowFixMe[prop-missing]: need a better way to handle this...
 
 
-	        next = next.parentNode || next.host;
-	      } while (next);
-	    } // Give up, the result is false
+	      next = next.parentNode || next.host;
+	    } while (next);
+	  } // Give up, the result is false
 
 
 	  return false;
@@ -3752,11 +3762,11 @@
 
 	function popperOffsets(_ref) {
 	  var state = _ref.state,
-	      name = _ref.name;
-	  // Offsets are the actual position the popper needs to have to be
+	      name = _ref.name; // Offsets are the actual position the popper needs to have to be
 	  // properly positioned near its reference element
 	  // This is the most basic placement, and will be adjusted by
 	  // the modifiers in the next step
+
 	  state.modifiersData[name] = computeOffsets({
 	    reference: state.rects.reference,
 	    element: state.rects.popper,
@@ -4304,12 +4314,16 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(require$$0, eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (Popper, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (Popper, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  function _interopNamespace(e) {
 	    if (e && e.__esModule) return e;
 	    const n = Object.create(null);
+
 	    if (e) {
 	      for (const k in e) {
 	        if (k !== 'default') {
@@ -4321,22 +4335,27 @@
 	        }
 	      }
 	    }
+
 	    n.default = e;
 	    return Object.freeze(n);
 	  }
 
 	  const Popper__namespace = /*#__PURE__*/_interopNamespace(Popper);
-	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
+
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const toType = obj => {
 	    if (obj === null || obj === undefined) {
@@ -4514,18 +4533,19 @@
 
 	    return list[Math.max(0, Math.min(index, listLength - 1))];
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): dropdown.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'dropdown';
 	  const DATA_KEY = 'bs.dropdown';
@@ -4976,11 +4996,8 @@
 	   */
 
 	  defineJQueryPlugin(Dropdown);
-
 	  return Dropdown;
-
-	}));
-
+	});
 	}(dropdown$1));
 
 	var dropdown = /*@__PURE__*/getDefaultExportFromCjs(dropdown$1.exports);
@@ -4996,20 +5013,27 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const MILLISECONDS_MULTIPLIER = 1000;
 	  const TRANSITION_END = 'transitionend'; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
 
@@ -5237,13 +5261,14 @@
 	      }
 	    }, emulatedDuration);
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/scrollBar.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const SELECTOR_FIXED_CONTENT = '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top';
 	  const SELECTOR_STICKY_CONTENT = '.sticky-top';
 
@@ -5341,13 +5366,14 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/backdrop.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const Default$2 = {
 	    className: 'modal-backdrop',
 	    isVisible: true,
@@ -5465,13 +5491,14 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/focustrap.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const Default$1 = {
 	    trapElement: null,
 	    // The element to trap focus inside of
@@ -5568,13 +5595,13 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/component-functions.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const enableDismissTrigger = (component, method = 'hide') => {
 	    const clickEvent = `click.dismiss${component.EVENT_KEY}`;
@@ -5594,18 +5621,19 @@
 	      instance[method]();
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): modal.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'modal';
 	  const DATA_KEY = 'bs.modal';
@@ -6023,11 +6051,8 @@
 	   */
 
 	  defineJQueryPlugin(Modal);
-
 	  return Modal;
-
-	}));
-
+	});
 	}(modal$1));
 
 	var modal = modal$1.exports;
@@ -6043,20 +6068,27 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(selectorEngine.exports, manipulator.exports, eventHandler.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (SelectorEngine, Manipulator, EventHandler, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (SelectorEngine, Manipulator, EventHandler, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const MILLISECONDS_MULTIPLIER = 1000;
 	  const TRANSITION_END = 'transitionend'; // Shoutout AngusCroll (https://goo.gl/pxwQGp)
 
@@ -6282,13 +6314,14 @@
 	      }
 	    }, emulatedDuration);
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/scrollBar.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const SELECTOR_FIXED_CONTENT = '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top';
 	  const SELECTOR_STICKY_CONTENT = '.sticky-top';
 
@@ -6386,13 +6419,14 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/backdrop.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const Default$2 = {
 	    className: 'modal-backdrop',
 	    isVisible: true,
@@ -6510,13 +6544,14 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/focustrap.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const Default$1 = {
 	    trapElement: null,
 	    // The element to trap focus inside of
@@ -6613,13 +6648,13 @@
 	    }
 
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/component-functions.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const enableDismissTrigger = (component, method = 'hide') => {
 	    const clickEvent = `click.dismiss${component.EVENT_KEY}`;
@@ -6639,18 +6674,19 @@
 	      instance[method]();
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): offcanvas.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'offcanvas';
 	  const DATA_KEY = 'bs.offcanvas';
@@ -6895,11 +6931,8 @@
 	   */
 
 	  defineJQueryPlugin(Offcanvas);
-
 	  return Offcanvas;
-
-	}));
-
+	});
 	}(offcanvas$1));
 
 	var offcanvas = offcanvas$1.exports;
@@ -6917,12 +6950,16 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(require$$0, data.exports, eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (Popper, Data, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (Popper, Data, EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  function _interopNamespace(e) {
 	    if (e && e.__esModule) return e;
 	    const n = Object.create(null);
+
 	    if (e) {
 	      for (const k in e) {
 	        if (k !== 'default') {
@@ -6934,23 +6971,30 @@
 	        }
 	      }
 	    }
+
 	    n.default = e;
 	    return Object.freeze(n);
 	  }
 
 	  const Popper__namespace = /*#__PURE__*/_interopNamespace(Popper);
-	  const Data__default = /*#__PURE__*/_interopDefaultLegacy(Data);
-	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Data__default = /*#__PURE__*/_interopDefaultLegacy(Data);
+
+	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
+
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const MAX_UID = 1000000;
 
 	  const toType = obj => {
@@ -7086,13 +7130,14 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/sanitizer.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
+
 	  const uriAttributes = new Set(['background', 'cite', 'href', 'itemtype', 'longdesc', 'poster', 'src', 'xlink:href']);
 	  const ARIA_ATTRIBUTE_PATTERN = /^aria-[\w-]*$/i;
 	  /**
@@ -7165,6 +7210,7 @@
 	    u: [],
 	    ul: []
 	  };
+
 	  function sanitizeHtml(unsafeHtml, allowList, sanitizeFn) {
 	    if (!unsafeHtml.length) {
 	      return unsafeHtml;
@@ -7198,18 +7244,19 @@
 
 	    return createdDocument.body.innerHTML;
 	  }
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): tooltip.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'tooltip';
 	  const DATA_KEY = 'bs.tooltip';
@@ -7908,11 +7955,8 @@
 
 
 	  defineJQueryPlugin(Tooltip);
-
 	  return Tooltip;
-
-	}));
-
+	});
 	}(tooltip$1));
 
 	var tooltip = /*@__PURE__*/getDefaultExportFromCjs(tooltip$1.exports);
@@ -7926,17 +7970,20 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(tooltip$1.exports) ;
-	})(commonjsGlobal, (function (Tooltip) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (Tooltip) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const Tooltip__default = /*#__PURE__*/_interopDefaultLegacy(Tooltip);
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const getjQuery = () => {
 	    const {
@@ -7985,18 +8032,19 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): popover.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'popover';
 	  const DATA_KEY = 'bs.popover';
@@ -8095,11 +8143,8 @@
 
 
 	  defineJQueryPlugin(Popover);
-
 	  return Popover;
-
-	}));
-
+	});
 	}(popover$1));
 
 	var popover = popover$1.exports;
@@ -8115,20 +8160,26 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, manipulator.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, Manipulator, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const toType = obj => {
 	    if (obj === null || obj === undefined) {
@@ -8256,18 +8307,19 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): scrollspy.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'scrollspy';
 	  const DATA_KEY = 'bs.scrollspy';
@@ -8491,11 +8543,8 @@
 	   */
 
 	  defineJQueryPlugin(ScrollSpy);
-
 	  return ScrollSpy;
-
-	}));
-
+	});
 	}(scrollspy$1));
 
 	var scrollspy = scrollspy$1.exports;
@@ -8511,19 +8560,24 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, selectorEngine.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, SelectorEngine, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, SelectorEngine, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const SelectorEngine__default = /*#__PURE__*/_interopDefaultLegacy(SelectorEngine);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const getSelector = element => {
 	    let selector = element.getAttribute('data-bs-target');
@@ -8631,18 +8685,19 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): tab.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'tab';
 	  const DATA_KEY = 'bs.tab';
@@ -8829,11 +8884,8 @@
 	   */
 
 	  defineJQueryPlugin(Tab);
-
 	  return Tab;
-
-	}));
-
+	});
 	}(tab$1));
 
 	var tab = tab$1.exports;
@@ -8849,19 +8901,24 @@
 	(function (module, exports) {
 	(function (global, factory) {
 	  module.exports = factory(eventHandler.exports, manipulator.exports, baseComponent.exports) ;
-	})(commonjsGlobal, (function (EventHandler, Manipulator, BaseComponent) {
-	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : { default: e };
+	})(commonjsGlobal, function (EventHandler, Manipulator, BaseComponent) {
+
+	  const _interopDefaultLegacy = e => e && typeof e === 'object' && 'default' in e ? e : {
+	    default: e
+	  };
 
 	  const EventHandler__default = /*#__PURE__*/_interopDefaultLegacy(EventHandler);
-	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
-	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 
+	  const Manipulator__default = /*#__PURE__*/_interopDefaultLegacy(Manipulator);
+
+	  const BaseComponent__default = /*#__PURE__*/_interopDefaultLegacy(BaseComponent);
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/index.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const toType = obj => {
 	    if (obj === null || obj === undefined) {
@@ -9001,13 +9058,13 @@
 	      }
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): util/component-functions.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 
 	  const enableDismissTrigger = (component, method = 'hide') => {
 	    const clickEvent = `click.dismiss${component.EVENT_KEY}`;
@@ -9027,18 +9084,19 @@
 	      instance[method]();
 	    });
 	  };
-
 	  /**
 	   * --------------------------------------------------------------------------
 	   * Bootstrap (v5.1.3): toast.js
 	   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	   * --------------------------------------------------------------------------
 	   */
+
 	  /**
 	   * ------------------------------------------------------------------------
 	   * Constants
 	   * ------------------------------------------------------------------------
 	   */
+
 
 	  const NAME = 'toast';
 	  const DATA_KEY = 'bs.toast';
@@ -9257,11 +9315,8 @@
 	   */
 
 	  defineJQueryPlugin(Toast);
-
 	  return Toast;
-
-	}));
-
+	});
 	}(toast$1));
 
 	var toast = toast$1.exports;

@@ -76,7 +76,7 @@
     .offcanvas {
         border: none;
         .offcanvas-header {
-            background-color: #08080D;
+            background-color: #071925;
             padding: 20px;
             .btn-close-gh {
                 opacity: 1;
@@ -87,7 +87,7 @@
             }
         }
         .offcanvas-body {
-            background-color: #08080D;
+            background-color: #071925;
             justify-content: space-between;
             padding: 30px 20px;
             @media (min-width: 992px) {
@@ -240,7 +240,7 @@
 .gh--header {
     padding-top: 50px;
     padding-bottom: 200px;
-    background-color: #08080D;
+    background-color: #071925;
     h1 {
         text-align: center;
         margin-bottom: 50px;
@@ -672,7 +672,7 @@
     position: relative;
     padding-bottom: 50.25%;
     box-shadow: 10px 17px 36px -12px rgba(8,8,13,0.81);
-    background-color: #08080D;
+    background-color: #071925;
     @media (min-width: 992px) {
         padding-bottom: 36.25%;
     }
@@ -689,9 +689,9 @@
 .gh-header__home {
     padding-top: 100px;
     padding-bottom: 300px;
-    background: linear-gradient(180deg, rgba(8,8,13,1) 90%, rgba(249,249,249,1) 90%);
+    background: linear-gradient(180deg, #071925 90%, rgba(249,249,249,1) 90%);
     @media (min-width: 992px) {
-        background: linear-gradient(180deg, rgba(8,8,13,1) 52%, rgba(249,249,249,1) 52%);
+        background: linear-gradient(180deg, #071925 52%, rgba(249,249,249,1) 52%);
     }
     .container-header__home {
         max-width: 1700px;
@@ -827,7 +827,7 @@
                 height: 100%;
                 top: 0;
                 left: 0;
-                background-color: #08080d;
+                background-color: #071925;
                 opacity: 0;
                 transition: all 400ms ease-in;
             }
@@ -1048,7 +1048,7 @@
                     content: "";
                     position: absolute;
                     width: 600%;
-                    background-color: #08080d;
+                    background-color: #071925;
                     left: -300%;
                     z-index: -1;
                     top: -195px;
