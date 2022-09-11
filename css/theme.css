@@ -17711,7 +17711,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 992px) {
   .gh--table .casionos--container .card .single--casino {
-    justify-content: normal;
+    justify-content: center;
   }
 }
 .gh--table .casionos--container .card .single--casino span {
@@ -17736,7 +17736,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .gh--table .casionos--container .card .single--casino .card-img {
   max-width: 85px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -17855,7 +17854,6 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 @media (min-width: 992px) {
   .gh--table .casionos--container .card .card-body .card-text {
-    text-align: left;
     flex: 3;
     margin-bottom: 0;
   }

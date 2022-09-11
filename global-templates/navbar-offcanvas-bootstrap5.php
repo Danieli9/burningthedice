@@ -79,10 +79,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<?php if ( $single_link ) { ?>
 									<li> <a href="<?php echo $single_link['url']; ?>" target="<?php echo $single_link['target']; ?>"><?php echo $single_link['title']; ?></a></li>
 								<?php } ?>
-							<?php endwhile; ?>
-						<?php else : ?>
-							<?php // no rows found ?>
-						<?php endif; ?>
+							<?php endwhile; else : endif;?>
 						
 					</ul>
 				</div>
